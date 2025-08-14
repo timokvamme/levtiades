@@ -1,0 +1,22 @@
+TIANDES ATLAS ALIGNMENT REPORT
+========================================
+
+SPATIAL PROPERTIES:
+Shape: (91, 109, 91)
+Voxel size: (2.0, 2.0, 2.0) mm
+Orientation: ('L', 'A', 'S')
+
+TIAN SUBCORTICAL (S4):
+Total regions: 54
+Label range: 0 - 54
+Non-zero voxels: 7984
+
+DESTRIEUX CORTICAL:
+Total regions: 148
+Label range: 0 - 150
+Non-zero voxels: 95328
+
+OVERLAP CHECK:
+Overlapping voxels: 315
+⚠️  WARNING: Atlases have overlapping regions!
+This may indicate cortical-subcortical boundary issues.

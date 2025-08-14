@@ -1,0 +1,20 @@
+TianDes Limbic-Cortical Atlas Information
+=============================================
+
+COMPONENT ATLASES:
+1. Tian Subcortical Atlas (Scale IV - S4)
+   - Source: Melbourne Subcortex Atlas v1.4
+   - Regions: 54 fine-grained subcortical areas
+   - Structures: Striatum, Thalamus, Hippocampus, Amygdala, Globus Pallidus
+   - Space: MNI152NLin6Asym (3T)
+
+2. Destrieux Cortical Atlas (2009)
+   - Source: Nilearn/FSL
+   - Regions: 148 sulco-gyral cortical areas (74 per hemisphere)
+   - Space: MNI152 standard
+
+COMBINATION STRATEGY:
+- Limbic structures: High-detail Tian subcortical regions
+- Cortical structures: Fine-grained Destrieux parcellation
+- Target space: MNI152 standard (aligned)
+- Label range: Tian (1-54), Destrieux (55-202)

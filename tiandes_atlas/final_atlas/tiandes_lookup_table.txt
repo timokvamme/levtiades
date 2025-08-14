@@ -1,0 +1,204 @@
+# TianDes Atlas Lookup Table (FSL/MRIcrogl compatible)
+# Index	R	G	B	Label
+1	152	101	100	Tian:Tian_Unknown_1
+2	154	103	100	Tian:Tian_Unknown_2
+3	156	104	100	Tian:Tian_Unknown_3
+4	158	106	100	Tian:Tian_Unknown_4
+5	160	107	100	Tian:Tian_Unknown_5
+6	162	109	100	Tian:Tian_Unknown_6
+7	164	110	100	Tian:Tian_Unknown_7
+8	166	112	100	Tian:Tian_Unknown_8
+9	168	113	100	Tian:Tian_Unknown_9
+10	170	115	100	Tian:Tian_Unknown_10
+11	172	116	100	Tian:Tian_Unknown_11
+12	174	118	100	Tian:Tian_Unknown_12
+13	176	119	100	Tian:Tian_Unknown_13
+14	178	121	100	Tian:Tian_Unknown_14
+15	180	122	100	Tian:Tian_Unknown_15
+16	182	124	100	Tian:Tian_Unknown_16
+17	184	125	100	Tian:Tian_Unknown_17
+18	186	127	100	Tian:Tian_Unknown_18
+19	188	128	100	Tian:Tian_Unknown_19
+20	190	130	100	Tian:Tian_Unknown_20
+21	192	131	100	Tian:Tian_Unknown_21
+22	194	133	100	Tian:Tian_Unknown_22
+23	196	134	100	Tian:Tian_Unknown_23
+24	198	136	100	Tian:Tian_Unknown_24
+25	200	137	100	Tian:Tian_Unknown_25
+26	202	139	100	Tian:Tian_Unknown_26
+27	204	140	100	Tian:Tian_Unknown_27
+28	206	142	100	Tian:Tian_Unknown_28
+29	208	143	100	Tian:Tian_Unknown_29
+30	210	145	100	Tian:Tian_Unknown_30
+31	212	146	100	Tian:Tian_Unknown_31
+32	214	148	100	Tian:Tian_Unknown_32
+33	216	149	100	Tian:Tian_Unknown_33
+34	218	151	100	Tian:Tian_Unknown_34
+35	220	152	100	Tian:Tian_Unknown_35
+36	222	154	100	Tian:Tian_Unknown_36
+37	224	155	100	Tian:Tian_Unknown_37
+38	226	157	100	Tian:Tian_Unknown_38
+39	228	158	100	Tian:Tian_Unknown_39
+40	230	160	100	Tian:Tian_Unknown_40
+41	232	161	100	Tian:Tian_Unknown_41
+42	234	163	100	Tian:Tian_Unknown_42
+43	236	164	100	Tian:Tian_Unknown_43
+44	238	166	100	Tian:Tian_Unknown_44
+45	240	167	100	Tian:Tian_Unknown_45
+46	242	169	100	Tian:Tian_Unknown_46
+47	244	170	100	Tian:Tian_Unknown_47
+48	246	172	100	Tian:Tian_Unknown_48
+49	248	173	100	Tian:Tian_Unknown_49
+50	250	175	100	Tian:Tian_Unknown_50
+51	252	176	100	Tian:Tian_Unknown_51
+52	254	178	100	Tian:Tian_Unknown_52
+53	255	179	100	Tian:Tian_Unknown_53
+54	255	181	100	Tian:Tian_Unknown_54
+101	100	101	151	Destrieux:(1, 'L G_and_S_frontomargin')
+102	100	102	153	Destrieux:(2, 'L G_and_S_occipital_inf')
+103	100	103	155	Destrieux:(3, 'L G_and_S_paracentral')
+104	100	104	157	Destrieux:(4, 'L G_and_S_subcentral')
+105	100	106	159	Destrieux:(5, 'L G_and_S_transv_frontopol')
+106	100	107	160	Destrieux:(6, 'L G_and_S_cingul-Ant')
+107	100	108	162	Destrieux:(7, 'L G_and_S_cingul-Mid-Ant')
+108	100	109	164	Destrieux:(8, 'L G_and_S_cingul-Mid-Post')
+109	100	110	166	Destrieux:(9, 'L G_cingul-Post-dorsal')
+110	100	112	168	Destrieux:(10, 'L G_cingul-Post-ventral')
+111	100	113	169	Destrieux:(11, 'L G_cuneus')
+112	100	114	171	Destrieux:(12, 'L G_front_inf-Opercular')
+113	100	115	173	Destrieux:(13, 'L G_front_inf-Orbital')
+114	100	116	175	Destrieux:(14, 'L G_front_inf-Triangul')
+115	100	118	177	Destrieux:(15, 'L G_front_middle')
+116	100	119	178	Destrieux:(16, 'L G_front_sup')
+117	100	120	180	Destrieux:(17, 'L G_Ins_lg_and_S_cent_ins')
+118	100	121	182	Destrieux:(18, 'L G_insular_short')
+119	100	122	184	Destrieux:(19, 'L G_occipital_middle')
+120	100	124	186	Destrieux:(20, 'L G_occipital_sup')
+121	100	125	187	Destrieux:(21, 'L G_oc-temp_lat-fusifor')
+122	100	126	189	Destrieux:(22, 'L G_oc-temp_med-Lingual')
+123	100	127	191	Destrieux:(23, 'L G_oc-temp_med-Parahip')
+124	100	128	193	Destrieux:(24, 'L G_orbital')
+125	100	130	195	Destrieux:(25, 'L G_pariet_inf-Angular')
+126	100	131	196	Destrieux:(26, 'L G_pariet_inf-Supramar')
+127	100	132	198	Destrieux:(27, 'L G_parietal_sup')
+128	100	133	200	Destrieux:(28, 'L G_postcentral')
+129	100	134	202	Destrieux:(29, 'L G_precentral')
+130	100	136	204	Destrieux:(30, 'L G_precuneus')
+131	100	137	205	Destrieux:(31, 'L G_rectus')
+132	100	138	207	Destrieux:(32, 'L G_subcallosal')
+133	100	139	209	Destrieux:(33, 'L G_temp_sup-G_T_transv')
+134	100	140	211	Destrieux:(34, 'L G_temp_sup-Lateral')
+135	100	142	213	Destrieux:(35, 'L G_temp_sup-Plan_polar')
+136	100	143	214	Destrieux:(36, 'L G_temp_sup-Plan_tempo')
+137	100	144	216	Destrieux:(37, 'L G_temporal_inf')
+138	100	145	218	Destrieux:(38, 'L G_temporal_middle')
+139	100	146	220	Destrieux:(39, 'L Lat_Fis-ant-Horizont')
+140	100	148	222	Destrieux:(40, 'L Lat_Fis-ant-Vertical')
+141	100	149	223	Destrieux:(41, 'L Lat_Fis-post')
+143	100	151	227	Destrieux:(43, 'L Pole_occipital')
+144	100	152	229	Destrieux:(44, 'L Pole_temporal')
+145	100	154	231	Destrieux:(45, 'L S_calcarine')
+146	100	155	232	Destrieux:(46, 'L S_central')
+147	100	156	234	Destrieux:(47, 'L S_cingul-Marginalis')
+148	100	157	236	Destrieux:(48, 'L S_circular_insula_ant')
+149	100	158	238	Destrieux:(49, 'L S_circular_insula_inf')
+150	100	160	240	Destrieux:(50, 'L S_circular_insula_sup')
+151	100	161	241	Destrieux:(51, 'L S_collat_transv_ant')
+152	100	162	243	Destrieux:(52, 'L S_collat_transv_post')
+153	100	163	245	Destrieux:(53, 'L S_front_inf')
+154	100	164	247	Destrieux:(54, 'L S_front_middle')
+155	100	166	249	Destrieux:(55, 'L S_front_sup')
+156	100	167	250	Destrieux:(56, 'L S_interm_prim-Jensen')
+157	100	168	252	Destrieux:(57, 'L S_intrapariet_and_P_trans')
+158	100	169	254	Destrieux:(58, 'L S_oc_middle_and_Lunatus')
+159	100	170	255	Destrieux:(59, 'L S_oc_sup_and_transversal')
+160	100	172	255	Destrieux:(60, 'L S_occipital_ant')
+161	100	173	255	Destrieux:(61, 'L S_oc-temp_lat')
+162	100	174	255	Destrieux:(62, 'L S_oc-temp_med_and_Lingual')
+163	100	175	255	Destrieux:(63, 'L S_orbital_lateral')
+164	100	176	255	Destrieux:(64, 'L S_orbital_med-olfact')
+165	100	178	255	Destrieux:(65, 'L S_orbital-H_Shaped')
+166	100	179	255	Destrieux:(66, 'L S_parieto_occipital')
+167	100	180	255	Destrieux:(67, 'L S_pericallosal')
+168	100	181	255	Destrieux:(68, 'L S_postcentral')
+169	100	182	255	Destrieux:(69, 'L S_precentral-inf-part')
+170	100	184	255	Destrieux:(70, 'L S_precentral-sup-part')
+171	100	185	255	Destrieux:(71, 'L S_suborbital')
+172	100	186	255	Destrieux:(72, 'L S_subparietal')
+173	100	187	255	Destrieux:(73, 'L S_temporal_inf')
+174	100	188	255	Destrieux:(74, 'L S_temporal_sup')
+175	100	190	255	Destrieux:(75, 'L S_temporal_transverse')
+176	100	191	255	Destrieux:(76, 'R G_and_S_frontomargin')
+177	100	192	255	Destrieux:(77, 'R G_and_S_occipital_inf')
+178	100	193	255	Destrieux:(78, 'R G_and_S_paracentral')
+179	100	194	255	Destrieux:(79, 'R G_and_S_subcentral')
+180	100	196	255	Destrieux:(80, 'R G_and_S_transv_frontopol')
+181	100	197	255	Destrieux:(81, 'R G_and_S_cingul-Ant')
+182	100	198	255	Destrieux:(82, 'R G_and_S_cingul-Mid-Ant')
+183	100	199	255	Destrieux:(83, 'R G_and_S_cingul-Mid-Post')
+184	100	200	255	Destrieux:(84, 'R G_cingul-Post-dorsal')
+185	100	202	255	Destrieux:(85, 'R G_cingul-Post-ventral')
+186	100	203	255	Destrieux:(86, 'R G_cuneus')
+187	100	204	255	Destrieux:(87, 'R G_front_inf-Opercular')
+188	100	205	255	Destrieux:(88, 'R G_front_inf-Orbital')
+189	100	206	255	Destrieux:(89, 'R G_front_inf-Triangul')
+190	100	208	255	Destrieux:(90, 'R G_front_middle')
+191	100	209	255	Destrieux:(91, 'R G_front_sup')
+192	100	210	255	Destrieux:(92, 'R G_Ins_lg_and_S_cent_ins')
+193	100	211	255	Destrieux:(93, 'R G_insular_short')
+194	100	212	255	Destrieux:(94, 'R G_occipital_middle')
+195	100	214	255	Destrieux:(95, 'R G_occipital_sup')
+196	100	215	255	Destrieux:(96, 'R G_oc-temp_lat-fusifor')
+197	100	216	255	Destrieux:(97, 'R G_oc-temp_med-Lingual')
+198	100	217	255	Destrieux:(98, 'R G_oc-temp_med-Parahip')
+199	100	218	255	Destrieux:(99, 'R G_orbital')
+200	100	220	255	Destrieux:(100, 'R G_pariet_inf-Angular')
+201	100	221	255	Destrieux:(101, 'R G_pariet_inf-Supramar')
+202	100	222	255	Destrieux:(102, 'R G_parietal_sup')
+203	100	223	255	Destrieux:(103, 'R G_postcentral')
+204	100	224	255	Destrieux:(104, 'R G_precentral')
+205	100	226	255	Destrieux:(105, 'R G_precuneus')
+206	100	227	255	Destrieux:(106, 'R G_rectus')
+207	100	228	255	Destrieux:(107, 'R G_subcallosal')
+208	100	229	255	Destrieux:(108, 'R G_temp_sup-G_T_transv')
+209	100	230	255	Destrieux:(109, 'R G_temp_sup-Lateral')
+210	100	232	255	Destrieux:(110, 'R G_temp_sup-Plan_polar')
+211	100	233	255	Destrieux:(111, 'R G_temp_sup-Plan_tempo')
+212	100	234	255	Destrieux:(112, 'R G_temporal_inf')
+213	100	235	255	Destrieux:(113, 'R G_temporal_middle')
+214	100	236	255	Destrieux:(114, 'R Lat_Fis-ant-Horizont')
+215	100	238	255	Destrieux:(115, 'R Lat_Fis-ant-Vertical')
+216	100	239	255	Destrieux:(116, 'R Lat_Fis-post')
+218	100	241	255	Destrieux:(118, 'R Pole_occipital')
+219	100	242	255	Destrieux:(119, 'R Pole_temporal')
+220	100	244	255	Destrieux:(120, 'R S_calcarine')
+221	100	245	255	Destrieux:(121, 'R S_central')
+222	100	246	255	Destrieux:(122, 'R S_cingul-Marginalis')
+223	100	247	255	Destrieux:(123, 'R S_circular_insula_ant')
+224	100	248	255	Destrieux:(124, 'R S_circular_insula_inf')
+225	100	250	255	Destrieux:(125, 'R S_circular_insula_sup')
+226	100	251	255	Destrieux:(126, 'R S_collat_transv_ant')
+227	100	252	255	Destrieux:(127, 'R S_collat_transv_post')
+228	100	253	255	Destrieux:(128, 'R S_front_inf')
+229	100	254	255	Destrieux:(129, 'R S_front_middle')
+230	100	255	255	Destrieux:(130, 'R S_front_sup')
+231	100	255	255	Destrieux:(131, 'R S_interm_prim-Jensen')
+232	100	255	255	Destrieux:(132, 'R S_intrapariet_and_P_trans')
+233	100	255	255	Destrieux:(133, 'R S_oc_middle_and_Lunatus')
+234	100	255	255	Destrieux:(134, 'R S_oc_sup_and_transversal')
+235	100	255	255	Destrieux:(135, 'R S_occipital_ant')
+236	100	255	255	Destrieux:(136, 'R S_oc-temp_lat')
+237	100	255	255	Destrieux:(137, 'R S_oc-temp_med_and_Lingual')
+238	100	255	255	Destrieux:(138, 'R S_orbital_lateral')
+239	100	255	255	Destrieux:(139, 'R S_orbital_med-olfact')
+240	100	255	255	Destrieux:(140, 'R S_orbital-H_Shaped')
+241	100	255	255	Destrieux:(141, 'R S_parieto_occipital')
+242	100	255	255	Destrieux:(142, 'R S_pericallosal')
+243	100	255	255	Destrieux:(143, 'R S_postcentral')
+244	100	255	255	Destrieux:(144, 'R S_precentral-inf-part')
+245	100	255	255	Destrieux:(145, 'R S_precentral-sup-part')
+246	100	255	255	Destrieux:(146, 'R S_suborbital')
+247	100	255	255	Destrieux:(147, 'R S_subparietal')
+248	100	255	255	Destrieux:(148, 'R S_temporal_inf')
+249	100	255	255	Destrieux:(149, 'R S_temporal_sup')
+250	100	255	255	Destrieux:(150, 'R S_temporal_transverse')

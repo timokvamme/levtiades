@@ -1,0 +1,56 @@
+TIANDES ATLAS OVERLAP ANALYSIS
+========================================
+
+Total overlapping voxels: 315
+Unique region pairs: 16
+
+TOP 10 LARGEST OVERLAPS:
+-------------------------
+ 1.  67 voxels (21.3%)
+    Tian: Unknown_21
+    Destrieux: (98, 'R G_oc-temp_med-Parahip')
+
+ 2.  64 voxels (20.3%)
+    Tian: Unknown_48
+    Destrieux: (23, 'L G_oc-temp_med-Parahip')
+
+ 3.  31 voxels ( 9.8%)
+    Tian: Unknown_1
+    Destrieux: (98, 'R G_oc-temp_med-Parahip')
+
+ 4.  29 voxels ( 9.2%)
+    Tian: Unknown_32
+    Destrieux: (23, 'L G_oc-temp_med-Parahip')
+
+ 5.  26 voxels ( 8.3%)
+    Tian: Unknown_28
+    Destrieux: (23, 'L G_oc-temp_med-Parahip')
+
+ 6.  24 voxels ( 7.6%)
+    Tian: Unknown_5
+    Destrieux: (98, 'R G_oc-temp_med-Parahip')
+
+ 7.  15 voxels ( 4.8%)
+    Tian: Unknown_51
+    Destrieux: (32, 'L G_subcallosal')
+
+ 8.  12 voxels ( 3.8%)
+    Tian: Unknown_48
+    Destrieux: (35, 'L G_temp_sup-Plan_polar')
+
+ 9.  11 voxels ( 3.5%)
+    Tian: Unknown_2
+    Destrieux: (98, 'R G_oc-temp_med-Parahip')
+
+10.  11 voxels ( 3.5%)
+    Tian: Unknown_33
+    Destrieux: (23, 'L G_oc-temp_med-Parahip')
+
+OVERLAP PATTERNS:
+----------------
+Most problematic Tian regions:
+  Unknown_48: 76 overlapping voxels
+  Unknown_21: 71 overlapping voxels
+  Unknown_1: 31 overlapping voxels
+  Unknown_32: 29 overlapping voxels
+  Unknown_28: 26 overlapping voxels
