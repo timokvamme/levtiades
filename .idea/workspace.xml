@@ -4,471 +4,72 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dcb6ea7-f203-4208-a62f-105a3acd1f03" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Gordon333.32k_fs_LR_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S1_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S1_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S1_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S1_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S3_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S3_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S3_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S3_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S4_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S4_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S4_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S4_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S1_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S1_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S1_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S1_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S2_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S2_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S2_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S2_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S3_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S3_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S3_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S3_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S4_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S4_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S4_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S4_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S1_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S1_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S1_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S1_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S2_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S2_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S2_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S2_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S3_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S3_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S3_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S3_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S4_3T_MNI152NLin2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S4_3T_MNI152NLin2009cAsym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S4_MNI152NLin6Asym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S4_MNI152NLin6Asym_2mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Q1-Q6_RelatedValidation210.CorticalAreas_dil_Final_Final_Areas_Group_Colors.32k_fs_LR_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/S1200.L.inflated_MSMAll.32k_fs_LR.surf.gii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/S1200.R.inflated_MSMAll.32k_fs_LR.surf.gii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_17Networks_order_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_17Networks_order_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_300Parcels_7Networks_order_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_17Networks_order_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S1.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S1_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S2.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S2_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S3.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S3_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S4.dlabel.nii" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Cortex-Subcortex/Schaefer2018_400Parcels_7Networks_order_Tian_Subcortex_S4_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Nomenclature-subcortex-parcellation-hierarchy-3T.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S1_3T.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S1_3T_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S1_3T_2009cAsym.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S1_3T_2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S1_3T_32k.dscalar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S1_3T_COG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S1_3T_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S2_3T.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S2_3T_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S2_3T_2009cAsym.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S2_3T_2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S2_3T_32k.dscalar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S2_3T_COG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S2_3T_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S3_3T.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S3_3T_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S3_3T_2009cAsym.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S3_3T_2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S3_3T_32k.dscalar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S3_3T_COG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S3_3T_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S4_3T.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S4_3T_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S4_3T_2009cAsym.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S4_3T_2009cAsym_1mm.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S4_3T_32k.dscalar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S4_3T_COG.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Tian2020MSA_v1.4/3T/Subcortex-Only/Tian_Subcortex_S4_3T_label.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/claude_bajada_email_on_making_it.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/fnimg-01-1009399.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/nihms213933.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/s41593-020-00711-6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/levtiades_pype/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/CLAUDE_BAJADA_IMPLEMENTATION_COMPLETE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/CLAUDE_BAJADA_RECOMMENDATIONS_ASSESSMENT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/FINAL_TIANDES_ATLAS_REPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/SESSION_IMPLEMENTATION_LOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/TIANDES_ATLAS_INFO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/TIANDES_VALIDATION_REPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/aligned_atlases/destrieux_aligned.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/aligned_atlases/tian_aligned.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/alignment_report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/atlas_info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/atlas_quality_assessment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/check_original_destrieux_properties.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/combine_atlases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/create_critical_region_overlays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/detect_overlaps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/fast_nonlinear_registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/final_atlas/tiandes_combined.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/final_atlas/tiandes_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/final_atlas/tiandes_lookup_table.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/final_atlas/tiandes_region_stats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/generate_mricrogl_rois.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_101_1LG_and_S_frontomargin.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_102_2LG_and_S_occipital_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_103_3LG_and_S_paracentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_104_4LG_and_S_subcentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_105_5LG_and_S_transv_frontopol.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_106_6LG_and_S_cingul-Ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_107_7LG_and_S_cingul-Mid-Ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_108_8LG_and_S_cingul-Mid-Post.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_109_9LG_cingul-Post-dorsal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_110_10LG_cingul-Post-ventral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_111_11LG_cuneus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_112_12LG_front_inf-Opercular.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_113_13LG_front_inf-Orbital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_114_14LG_front_inf-Triangul.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_115_15LG_front_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_116_16LG_front_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_117_17LG_Ins_lg_and_S_cent_ins.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_118_18LG_insular_short.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_119_19LG_occipital_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_120_20LG_occipital_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_121_21LG_oc-temp_lat-fusifor.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_122_22LG_oc-temp_med-Lingual.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_123_23LG_oc-temp_med-Parahip.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_124_24LG_orbital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_125_25LG_pariet_inf-Angular.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_126_26LG_pariet_inf-Supramar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_127_27LG_parietal_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_128_28LG_postcentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_129_29LG_precentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_130_30LG_precuneus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_131_31LG_rectus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_132_32LG_subcallosal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_133_33LG_temp_sup-G_T_transv.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_134_34LG_temp_sup-Lateral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_135_35LG_temp_sup-Plan_polar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_136_36LG_temp_sup-Plan_tempo.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_137_37LG_temporal_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_138_38LG_temporal_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_139_39LLat_Fis-ant-Horizont.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_140_40LLat_Fis-ant-Vertical.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_141_41LLat_Fis-post.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_143_43LPole_occipital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_144_44LPole_temporal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_145_45LS_calcarine.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_146_46LS_central.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_147_47LS_cingul-Marginalis.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_148_48LS_circular_insula_ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_149_49LS_circular_insula_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_150_50LS_circular_insula_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_151_51LS_collat_transv_ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_152_52LS_collat_transv_post.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_153_53LS_front_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_154_54LS_front_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_155_55LS_front_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_156_56LS_interm_prim-Jensen.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_157_57LS_intrapariet_and_P_trans.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_158_58LS_oc_middle_and_Lunatus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_159_59LS_oc_sup_and_transversal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_160_60LS_occipital_ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_161_61LS_oc-temp_lat.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_162_62LS_oc-temp_med_and_Lingual.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_163_63LS_orbital_lateral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_164_64LS_orbital_med-olfact.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_165_65LS_orbital-H_Shaped.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_166_66LS_parieto_occipital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_167_67LS_pericallosal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_168_68LS_postcentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_169_69LS_precentral-inf-part.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_170_70LS_precentral-sup-part.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_171_71LS_suborbital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_172_72LS_subparietal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_173_73LS_temporal_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_174_74LS_temporal_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_175_75LS_temporal_transverse.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_176_76RG_and_S_frontomargin.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_177_77RG_and_S_occipital_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_178_78RG_and_S_paracentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_179_79RG_and_S_subcentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_180_80RG_and_S_transv_frontopol.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_181_81RG_and_S_cingul-Ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_182_82RG_and_S_cingul-Mid-Ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_183_83RG_and_S_cingul-Mid-Post.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_184_84RG_cingul-Post-dorsal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_185_85RG_cingul-Post-ventral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_186_86RG_cuneus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_187_87RG_front_inf-Opercular.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_188_88RG_front_inf-Orbital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_189_89RG_front_inf-Triangul.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_190_90RG_front_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_191_91RG_front_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_192_92RG_Ins_lg_and_S_cent_ins.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_193_93RG_insular_short.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_194_94RG_occipital_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_195_95RG_occipital_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_196_96RG_oc-temp_lat-fusifor.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_197_97RG_oc-temp_med-Lingual.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_198_98RG_oc-temp_med-Parahip.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_199_99RG_orbital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_200_100RG_pariet_inf-Angular.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_201_101RG_pariet_inf-Supramar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_202_102RG_parietal_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_203_103RG_postcentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_204_104RG_precentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_205_105RG_precuneus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_206_106RG_rectus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_207_107RG_subcallosal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_208_108RG_temp_sup-G_T_transv.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_209_109RG_temp_sup-Lateral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_210_110RG_temp_sup-Plan_polar.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_211_111RG_temp_sup-Plan_tempo.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_212_112RG_temporal_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_213_113RG_temporal_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_214_114RLat_Fis-ant-Horizont.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_215_115RLat_Fis-ant-Vertical.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_216_116RLat_Fis-post.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_218_118RPole_occipital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_219_119RPole_temporal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_220_120RS_calcarine.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_221_121RS_central.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_222_122RS_cingul-Marginalis.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_223_123RS_circular_insula_ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_224_124RS_circular_insula_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_225_125RS_circular_insula_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_226_126RS_collat_transv_ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_227_127RS_collat_transv_post.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_228_128RS_front_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_229_129RS_front_middle.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_230_130RS_front_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_231_131RS_interm_prim-Jensen.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_232_132RS_intrapariet_and_P_trans.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_233_133RS_oc_middle_and_Lunatus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_234_134RS_oc_sup_and_transversal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_235_135RS_occipital_ant.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_236_136RS_oc-temp_lat.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_237_137RS_oc-temp_med_and_Lingual.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_238_138RS_orbital_lateral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_239_139RS_orbital_med-olfact.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_240_140RS_orbital-H_Shaped.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_241_141RS_parieto_occipital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_242_142RS_pericallosal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_243_143RS_postcentral.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_244_144RS_precentral-inf-part.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_245_145RS_precentral-sup-part.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_246_146RS_suborbital.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_247_147RS_subparietal.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_248_148RS_temporal_inf.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_249_149RS_temporal_sup.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/cortical/Des_250_150RS_temporal_transverse.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_01_Tian_Unknown_1.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_02_Tian_Unknown_2.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_03_Tian_Unknown_3.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_04_Tian_Unknown_4.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_05_Tian_Unknown_5.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_06_Tian_Unknown_6.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_07_Tian_Unknown_7.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_08_Tian_Unknown_8.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_09_Tian_Unknown_9.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_10_Tian_Unknown_10.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_11_Tian_Unknown_11.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_12_Tian_Unknown_12.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_13_Tian_Unknown_13.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_14_Tian_Unknown_14.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_15_Tian_Unknown_15.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_16_Tian_Unknown_16.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_17_Tian_Unknown_17.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_18_Tian_Unknown_18.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_19_Tian_Unknown_19.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_20_Tian_Unknown_20.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_21_Tian_Unknown_21.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_22_Tian_Unknown_22.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_23_Tian_Unknown_23.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_24_Tian_Unknown_24.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_25_Tian_Unknown_25.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_26_Tian_Unknown_26.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_27_Tian_Unknown_27.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_28_Tian_Unknown_28.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_29_Tian_Unknown_29.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_30_Tian_Unknown_30.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_31_Tian_Unknown_31.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_32_Tian_Unknown_32.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_33_Tian_Unknown_33.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_34_Tian_Unknown_34.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_35_Tian_Unknown_35.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_36_Tian_Unknown_36.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_37_Tian_Unknown_37.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_38_Tian_Unknown_38.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_39_Tian_Unknown_39.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_40_Tian_Unknown_40.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_41_Tian_Unknown_41.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_42_Tian_Unknown_42.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_43_Tian_Unknown_43.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_44_Tian_Unknown_44.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_45_Tian_Unknown_45.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_46_Tian_Unknown_46.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_47_Tian_Unknown_47.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_48_Tian_Unknown_48.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_49_Tian_Unknown_49.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_50_Tian_Unknown_50.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_51_Tian_Unknown_51.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_52_Tian_Unknown_52.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_53_Tian_Unknown_53.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/individual_rois/limbic/Tian_54_Tian_Unknown_54.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/mricrogl_tiandes_visualization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/nonlinear_aligned/destrieux_fast_nonlinear.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/nonlinear_aligned/fast_registration_Composite.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/nonlinear_aligned/fast_registration_InverseComposite.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/nonlinear_aligned/tian_reference.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/nonlinear_registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/nonlinear_registration_antspy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/boundary_checks/limbic_cortical_boundaries.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/actual_overlap_voxels.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/all_critical_regions_combined.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/critical_destrieux_023.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/critical_destrieux_098.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/critical_tian_01.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/critical_tian_21.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/critical_tian_28.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/critical_tian_32.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/critical_tian_48.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/parahippocampal_boundary_focus.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/critical_region_overlays/screenshot_validation_overlay.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/screenshots/Screenshot_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/tiandes_cortical_only.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/tiandes_left_hemisphere.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/tiandes_right_hemisphere.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/plots_4_mricrogl/tiandes_subcortical_only.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/raw_atlases/destrieux_cortical.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/raw_atlases/destrieux_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/raw_atlases/tian_labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/raw_atlases/tian_subcortical.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/register_atlases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/restore_and_analyze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/roi_inventory.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/setup_tiandes_project.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/validate_final_atlas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/validation/boundary_visualizations/all_overlaps_mask.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/validation/boundary_visualizations/boundary_zones.nii.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/validation/overlap_reports/overlap_details.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tiandes_atlas/validation/overlap_reports/overlap_summary.txt" afterDir="false" />
+    <list default="true" id="1dcb6ea7-f203-4208-a62f-105a3acd1f03" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/levtiades_atlas/validation/Screenshot_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "timokvamme"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;timokvamme&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/timokvamme/levtiades.git",
-    "accountId": "22d0b9e6-7773-423c-8d3e-d84413848268"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/timokvamme/levtiades.git&quot;,
+    &quot;accountId&quot;: &quot;22d0b9e6-7773-423c-8d3e-d84413848268&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="31H3rgLPvsFIFH8HucuWzFyLvC3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/code/projects/levtiades",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "ssh.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/projects/levtiades&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ssh.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\projects\levtiades\levtiades_atlas\validation" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -484,11 +85,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1755167370789</updated>
-      <workItem from="1755167371868" duration="7334000" />
+      <workItem from="1755167371868" duration="12879000" />
+      <workItem from="1755223508003" duration="4593000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1755185850583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755185850583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
 </project>

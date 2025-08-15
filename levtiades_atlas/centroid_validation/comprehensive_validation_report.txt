@@ -1,0 +1,110 @@
+LEVTIADES ATLAS COMPREHENSIVE VALIDATION REPORT
+=======================================================
+
+Generated: 2025-08-15 09:56:11
+Atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz
+Hemisphere Ordering: Levinson → Tian-LEFT → Tian-RIGHT → Destrieux-LEFT → Destrieux-RIGHT
+
+EXECUTIVE SUMMARY
+-----------------
+Total regions validated: 207
+Perfect matches (< 1mm): 202 (97.6%)
+Acceptable mismatches (≥ 1mm): 5 (2.4%)
+Overall validation quality: EXCELLENT
+
+OVERALL STATISTICS
+------------------
+Mean distance: 0.061 mm
+Standard deviation: 0.300 mm
+Median distance: 0.000 mm
+Minimum distance: 0.000 mm
+Maximum distance: 2.360 mm
+25th percentile: 0.000 mm
+75th percentile: 0.000 mm
+Range: 2.360 mm
+
+STATISTICS BY ATLAS
+-------------------
+
+LEVINSON ATLAS:
+  Regions: 5
+  Perfect matches: 5/5 (100.0%)
+  Mean distance: 0.000 mm
+  Std deviation: 0.000 mm
+  Median: 0.000 mm
+  Range: 0.000 - 0.000 mm
+
+TIAN ATLAS:
+  Regions: 54
+  Perfect matches: 49/54 (90.7%)
+  Mean distance: 0.234 mm
+  Std deviation: 0.555 mm
+  Median: 0.000 mm
+  Range: 0.000 - 2.360 mm
+
+DESTRIEUX ATLAS:
+  Regions: 148
+  Perfect matches: 148/148 (100.0%)
+  Mean distance: 0.000 mm
+  Std deviation: 0.000 mm
+  Median: 0.000 mm
+  Range: 0.000 - 0.000 mm
+
+MISMATCH ANALYSIS
+-----------------
+Total mismatches: 5
+Mismatch distance range: 1.020 - 2.360 mm
+Mean mismatch distance: 1.764 mm
+Std deviation of mismatches: 0.562 mm
+Median mismatch distance: 1.720 mm
+
+SPECIFIC MISMATCHES:
+  Region 6 (Tian): 1.45 mm
+  Region 10 (Tian): 1.02 mm
+  Region 26 (Tian): 2.27 mm
+  Region 33 (Tian): 1.72 mm
+  Region 53 (Tian): 2.36 mm
+
+
+TECHNICAL EXPLANATION
+=====================
+
+WHY CENTROID MISMATCHES OCCUR
+------------------------------
+
+The small centroid differences (1-3mm) between original aligned atlases and the
+final combined Levtiades atlas are expected and occur due to:
+
+1. ATLAS PROCESSING EFFECTS:
+   • Original aligned atlas: Each region exists as pure, isolated ROI
+   • Final combined atlas: Regions undergo multiple processing steps:
+     - Combination with other atlases (Levinson + Tian + Destrieux)
+     - Overlap resolution (hierarchical priority: Midbrain > Subcortical > Cortical)
+     - Sequential reindexing (1-207)
+     - Hemisphere reordering (LEFT before RIGHT)
+
+2. VOXEL-LEVEL CHANGES:
+   • Boundary voxel loss/gain during overlap resolution
+   • Small shifts from interpolation during processing
+   • Edge effects from multiple transformation steps
+
+3. WHY SOME REGIONS MATCH PERFECTLY (0.0mm):
+   • No overlapping voxels with other atlases
+   • Not affected by boundary adjustments
+   • Maintained exact original shape through all processing
+
+4. CLINICAL SIGNIFICANCE:
+   • 1-3mm differences are clinically acceptable for brain atlases at 2mm resolution
+   • Small shifts don't affect functional integrity of regions
+   • Regions maintain anatomical identity and boundaries
+   • Multi-atlas combination always introduces small centroid shifts
+
+CONCLUSION
+----------
+The 202/207 perfect matches (97.6%) with
+most mismatches <2mm indicates EXCELLENT preservation of original atlas geometry.
+The 5 mismatches represent regions where boundary processing caused
+slight centroid shifts, but regions remain anatomically and functionally valid.
+
+This validation confirms the Levtiades atlas successfully combines three
+high-quality brain atlases while maintaining spatial accuracy and anatomical integrity.

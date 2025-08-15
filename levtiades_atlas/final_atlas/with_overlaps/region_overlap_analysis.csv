@@ -1,0 +1,17 @@
+overlap_type,region1_atlas,region1_index,region1_name,region1_total_voxels,region2_atlas,region2_index,region2_name,region2_total_voxels,overlap_voxels,overlap_percent_region1,overlap_percent_region2
+Tian-Destrieux,Tian,21,lAMY-rh,160,Destrieux,98,"(98, 'R G_oc-temp_med-Parahip')",1021,67,41.88,6.56
+Tian-Destrieux,Tian,48,lAMY-lh,160,Destrieux,23,"(23, 'L G_oc-temp_med-Parahip')",1021,64,40.0,6.27
+Tian-Destrieux,Tian,1,HIP-head-m1-rh,85,Destrieux,98,"(98, 'R G_oc-temp_med-Parahip')",1021,31,36.47,3.04
+Tian-Destrieux,Tian,32,HIP-head-l-lh,216,Destrieux,23,"(23, 'L G_oc-temp_med-Parahip')",1021,29,13.43,2.84
+Tian-Destrieux,Tian,28,HIP-head-m1-lh,85,Destrieux,23,"(23, 'L G_oc-temp_med-Parahip')",1021,26,30.59,2.55
+Tian-Destrieux,Tian,5,HIP-head-l-rh,216,Destrieux,98,"(98, 'R G_oc-temp_med-Parahip')",1021,24,11.11,2.35
+Tian-Destrieux,Tian,51,NAc-shell-lh,116,Destrieux,32,"(32, 'L G_subcallosal')",82,15,12.93,18.29
+Tian-Destrieux,Tian,48,lAMY-lh,160,Destrieux,35,"(35, 'L G_temp_sup-Plan_polar')",325,12,7.5,3.69
+Tian-Destrieux,Tian,2,HIP-head-m2-rh,45,Destrieux,98,"(98, 'R G_oc-temp_med-Parahip')",1021,11,24.44,1.08
+Tian-Destrieux,Tian,33,HIP-body-lh,198,Destrieux,23,"(23, 'L G_oc-temp_med-Parahip')",1021,11,5.56,1.08
+Tian-Destrieux,Tian,6,HIP-body-rh,198,Destrieux,98,"(98, 'R G_oc-temp_med-Parahip')",1021,9,4.55,0.88
+Tian-Destrieux,Tian,29,HIP-head-m2-lh,45,Destrieux,23,"(23, 'L G_oc-temp_med-Parahip')",1021,6,13.33,0.59
+Tian-Destrieux,Tian,21,lAMY-rh,160,Destrieux,110,"(110, 'R G_temp_sup-Plan_polar')",305,4,2.5,1.31
+Tian-Destrieux,Tian,23,THA-DP-rh,201,Destrieux,98,"(98, 'R G_oc-temp_med-Parahip')",1021,3,1.49,0.29
+Tian-Destrieux,Tian,7,HIP-tail-rh,106,Destrieux,98,"(98, 'R G_oc-temp_med-Parahip')",1021,2,1.89,0.2
+Tian-Destrieux,Tian,34,HIP-tail-lh,106,Destrieux,23,"(23, 'L G_oc-temp_med-Parahip')",1021,1,0.94,0.1

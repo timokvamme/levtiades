@@ -1,0 +1,133 @@
+LEVTIADES ATLAS OVERLAP ANALYSIS REPORT
+========================================
+
+Generated: 2025-08-15 10:17:13
+Atlas files analyzed:
+- levtiades_atlas/aligned_atlases/levinson_aligned.nii.gz
+- levtiades_atlas/aligned_atlases/tian_aligned.nii.gz
+- levtiades_atlas/aligned_atlases/destrieux_aligned.nii.gz
+
+OVERALL OVERLAP STATISTICS
+--------------------------
+Total brain coverage: 104,333 voxels
+Levinson coverage: 1,336 voxels (1.3%)
+Tian coverage: 7,984 voxels (7.7%)
+Destrieux coverage: 95,328 voxels (91.4%)
+
+OVERLAP SUMMARY
+---------------
+Levinson-Tian overlaps: 0 voxels
+Levinson-Destrieux overlaps: 0 voxels
+Tian-Destrieux overlaps: 315 voxels
+Three-way overlaps: 0 voxels
+
+Total overlapping voxels: 315 (0.3% of brain)
+
+OVERLAP RESOLUTION HIERARCHY
+----------------------------
+When regions from multiple atlases occupy the same voxel,
+the final atlas uses this priority hierarchy:
+1. LEVINSON (brainstem) - HIGHEST priority
+2. TIAN (subcortical) - MEDIUM priority
+3. DESTRIEUX (cortical) - LOWEST priority
+
+This ensures anatomically critical brainstem and subcortical
+structures are preserved over cortical regions when overlaps occur.
+
+SPECIFIC REGION OVERLAPS
+-----------------------
+
+TIAN-DESTRIEUX:
+  lAMY-rh ↔ (98, 'R G_oc-temp_med-Parahip')
+    Overlap: 67 voxels
+    % of Tian: 41.88%
+    % of Destrieux: 6.56%
+
+  lAMY-lh ↔ (23, 'L G_oc-temp_med-Parahip')
+    Overlap: 64 voxels
+    % of Tian: 40.0%
+    % of Destrieux: 6.27%
+
+  HIP-head-m1-rh ↔ (98, 'R G_oc-temp_med-Parahip')
+    Overlap: 31 voxels
+    % of Tian: 36.47%
+    % of Destrieux: 3.04%
+
+  HIP-head-l-lh ↔ (23, 'L G_oc-temp_med-Parahip')
+    Overlap: 29 voxels
+    % of Tian: 13.43%
+    % of Destrieux: 2.84%
+
+  HIP-head-m1-lh ↔ (23, 'L G_oc-temp_med-Parahip')
+    Overlap: 26 voxels
+    % of Tian: 30.59%
+    % of Destrieux: 2.55%
+
+  HIP-head-l-rh ↔ (98, 'R G_oc-temp_med-Parahip')
+    Overlap: 24 voxels
+    % of Tian: 11.11%
+    % of Destrieux: 2.35%
+
+  NAc-shell-lh ↔ (32, 'L G_subcallosal')
+    Overlap: 15 voxels
+    % of Tian: 12.93%
+    % of Destrieux: 18.29%
+
+  lAMY-lh ↔ (35, 'L G_temp_sup-Plan_polar')
+    Overlap: 12 voxels
+    % of Tian: 7.5%
+    % of Destrieux: 3.69%
+
+  HIP-head-m2-rh ↔ (98, 'R G_oc-temp_med-Parahip')
+    Overlap: 11 voxels
+    % of Tian: 24.44%
+    % of Destrieux: 1.08%
+
+  HIP-body-lh ↔ (23, 'L G_oc-temp_med-Parahip')
+    Overlap: 11 voxels
+    % of Tian: 5.56%
+    % of Destrieux: 1.08%
+
+  HIP-body-rh ↔ (98, 'R G_oc-temp_med-Parahip')
+    Overlap: 9 voxels
+    % of Tian: 4.55%
+    % of Destrieux: 0.88%
+
+  HIP-head-m2-lh ↔ (23, 'L G_oc-temp_med-Parahip')
+    Overlap: 6 voxels
+    % of Tian: 13.33%
+    % of Destrieux: 0.59%
+
+  lAMY-rh ↔ (110, 'R G_temp_sup-Plan_polar')
+    Overlap: 4 voxels
+    % of Tian: 2.5%
+    % of Destrieux: 1.31%
+
+  THA-DP-rh ↔ (98, 'R G_oc-temp_med-Parahip')
+    Overlap: 3 voxels
+    % of Tian: 1.49%
+    % of Destrieux: 0.29%
+
+  HIP-tail-rh ↔ (98, 'R G_oc-temp_med-Parahip')
+    Overlap: 2 voxels
+    % of Tian: 1.89%
+    % of Destrieux: 0.2%
+
+  HIP-tail-lh ↔ (23, 'L G_oc-temp_med-Parahip')
+    Overlap: 1 voxels
+    % of Tian: 0.94%
+    % of Destrieux: 0.1%
+
+FILES CREATED
+-------------
+- levtiades_multichannel.nii.gz: 4D image with each atlas as separate channel
+- levtiades_flat_with_overlaps.nii.gz: 3D image with hierarchy-resolved overlaps
+- region_overlap_analysis.csv: Detailed overlap statistics
+- overlap_analysis_report.txt: This comprehensive report
+
+INTERPRETATION
+--------------
+Overlaps are expected when combining atlases from different sources
+as they may define boundaries differently or have different resolution.
+The hierarchical resolution ensures the most functionally important
+regions (brainstem) take precedence over less critical ones (cortical).

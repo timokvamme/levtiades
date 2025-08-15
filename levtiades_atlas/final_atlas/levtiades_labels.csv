@@ -1,0 +1,208 @@
+index,region_name,source_atlas
+1,Locus_Coeruleus_LC,Levinson
+2,Nucleus_Tractus_Solitarius_NTS,Levinson
+3,Ventral_Tegmental_Area_VTA,Levinson
+4,Periaqueductal_Gray_PAG,Levinson
+5,Dorsal_Raphe_Nucleus_DRN,Levinson
+6,HIP-head-m1-lh,Tian
+7,HIP-head-m2-lh,Tian
+8,THA-VAip-lh,Tian
+9,THA-VAia-lh,Tian
+10,HIP-head-l-lh,Tian
+11,HIP-body-lh,Tian
+12,HIP-tail-lh,Tian
+13,THA-VPm-lh,Tian
+14,THA-VPl-lh,Tian
+15,THA-VAs-lh,Tian
+16,THA-DAm-lh,Tian
+17,THA-DAl-lh,Tian
+18,PUT-VA-lh,Tian
+19,PUT-DA-lh,Tian
+20,PUT-VP-lh,Tian
+21,PUT-DP-lh,Tian
+22,CAU-VA-lh,Tian
+23,CAU-DA-lh,Tian
+24,CAU-body-lh,Tian
+25,CAU-tail-lh,Tian
+26,lAMY-lh,Tian
+27,mAMY-lh,Tian
+28,THA-DP-lh,Tian
+29,NAc-shell-lh,Tian
+30,NAc-core-lh,Tian
+31,pGP-lh,Tian
+32,aGP-lh,Tian
+33,HIP-head-m1-rh,Tian
+34,HIP-head-m2-rh,Tian
+35,THA-VAip-rh,Tian
+36,THA-VAia-rh,Tian
+37,HIP-head-l-rh,Tian
+38,HIP-body-rh,Tian
+39,HIP-tail-rh,Tian
+40,THA-VPm-rh,Tian
+41,THA-VPl-rh,Tian
+42,THA-VAs-rh,Tian
+43,THA-DAm-rh,Tian
+44,THA-DAl-rh,Tian
+45,PUT-VA-rh,Tian
+46,PUT-DA-rh,Tian
+47,PUT-VP-rh,Tian
+48,PUT-DP-rh,Tian
+49,CAU-VA-rh,Tian
+50,CAU-DA-rh,Tian
+51,CAU-body-rh,Tian
+52,CAU-tail-rh,Tian
+53,lAMY-rh,Tian
+54,mAMY-rh,Tian
+55,THA-DP-rh,Tian
+56,NAc-shell-rh,Tian
+57,NAc-core-rh,Tian
+58,pGP-rh,Tian
+59,aGP-rh,Tian
+60,"(1, 'L G_and_S_frontomargin')",Destrieux
+61,"(2, 'L G_and_S_occipital_inf')",Destrieux
+62,"(3, 'L G_and_S_paracentral')",Destrieux
+63,"(4, 'L G_and_S_subcentral')",Destrieux
+64,"(5, 'L G_and_S_transv_frontopol')",Destrieux
+65,"(6, 'L G_and_S_cingul-Ant')",Destrieux
+66,"(7, 'L G_and_S_cingul-Mid-Ant')",Destrieux
+67,"(8, 'L G_and_S_cingul-Mid-Post')",Destrieux
+68,"(9, 'L G_cingul-Post-dorsal')",Destrieux
+69,"(10, 'L G_cingul-Post-ventral')",Destrieux
+70,"(11, 'L G_cuneus')",Destrieux
+71,"(12, 'L G_front_inf-Opercular')",Destrieux
+72,"(13, 'L G_front_inf-Orbital')",Destrieux
+73,"(14, 'L G_front_inf-Triangul')",Destrieux
+74,"(15, 'L G_front_middle')",Destrieux
+75,"(16, 'L G_front_sup')",Destrieux
+76,"(17, 'L G_Ins_lg_and_S_cent_ins')",Destrieux
+77,"(18, 'L G_insular_short')",Destrieux
+78,"(19, 'L G_occipital_middle')",Destrieux
+79,"(20, 'L G_occipital_sup')",Destrieux
+80,"(21, 'L G_oc-temp_lat-fusifor')",Destrieux
+81,"(22, 'L G_oc-temp_med-Lingual')",Destrieux
+82,"(23, 'L G_oc-temp_med-Parahip')",Destrieux
+83,"(24, 'L G_orbital')",Destrieux
+84,"(25, 'L G_pariet_inf-Angular')",Destrieux
+85,"(26, 'L G_pariet_inf-Supramar')",Destrieux
+86,"(27, 'L G_parietal_sup')",Destrieux
+87,"(28, 'L G_postcentral')",Destrieux
+88,"(29, 'L G_precentral')",Destrieux
+89,"(30, 'L G_precuneus')",Destrieux
+90,"(31, 'L G_rectus')",Destrieux
+91,"(32, 'L G_subcallosal')",Destrieux
+92,"(33, 'L G_temp_sup-G_T_transv')",Destrieux
+93,"(34, 'L G_temp_sup-Lateral')",Destrieux
+94,"(35, 'L G_temp_sup-Plan_polar')",Destrieux
+95,"(36, 'L G_temp_sup-Plan_tempo')",Destrieux
+96,"(37, 'L G_temporal_inf')",Destrieux
+97,"(38, 'L G_temporal_middle')",Destrieux
+98,"(39, 'L Lat_Fis-ant-Horizont')",Destrieux
+99,"(40, 'L Lat_Fis-ant-Vertical')",Destrieux
+100,"(41, 'L Lat_Fis-post')",Destrieux
+101,"(43, 'L Pole_occipital')",Destrieux
+102,"(44, 'L Pole_temporal')",Destrieux
+103,"(45, 'L S_calcarine')",Destrieux
+104,"(46, 'L S_central')",Destrieux
+105,"(47, 'L S_cingul-Marginalis')",Destrieux
+106,"(48, 'L S_circular_insula_ant')",Destrieux
+107,"(49, 'L S_circular_insula_inf')",Destrieux
+108,"(50, 'L S_circular_insula_sup')",Destrieux
+109,"(51, 'L S_collat_transv_ant')",Destrieux
+110,"(52, 'L S_collat_transv_post')",Destrieux
+111,"(53, 'L S_front_inf')",Destrieux
+112,"(54, 'L S_front_middle')",Destrieux
+113,"(55, 'L S_front_sup')",Destrieux
+114,"(56, 'L S_interm_prim-Jensen')",Destrieux
+115,"(57, 'L S_intrapariet_and_P_trans')",Destrieux
+116,"(58, 'L S_oc_middle_and_Lunatus')",Destrieux
+117,"(59, 'L S_oc_sup_and_transversal')",Destrieux
+118,"(60, 'L S_occipital_ant')",Destrieux
+119,"(61, 'L S_oc-temp_lat')",Destrieux
+120,"(62, 'L S_oc-temp_med_and_Lingual')",Destrieux
+121,"(63, 'L S_orbital_lateral')",Destrieux
+122,"(64, 'L S_orbital_med-olfact')",Destrieux
+123,"(65, 'L S_orbital-H_Shaped')",Destrieux
+124,"(66, 'L S_parieto_occipital')",Destrieux
+125,"(67, 'L S_pericallosal')",Destrieux
+126,"(68, 'L S_postcentral')",Destrieux
+127,"(69, 'L S_precentral-inf-part')",Destrieux
+128,"(70, 'L S_precentral-sup-part')",Destrieux
+129,"(71, 'L S_suborbital')",Destrieux
+130,"(72, 'L S_subparietal')",Destrieux
+131,"(73, 'L S_temporal_inf')",Destrieux
+132,"(74, 'L S_temporal_sup')",Destrieux
+133,"(75, 'L S_temporal_transverse')",Destrieux
+134,"(76, 'R G_and_S_frontomargin')",Destrieux
+135,"(77, 'R G_and_S_occipital_inf')",Destrieux
+136,"(78, 'R G_and_S_paracentral')",Destrieux
+137,"(79, 'R G_and_S_subcentral')",Destrieux
+138,"(80, 'R G_and_S_transv_frontopol')",Destrieux
+139,"(81, 'R G_and_S_cingul-Ant')",Destrieux
+140,"(82, 'R G_and_S_cingul-Mid-Ant')",Destrieux
+141,"(83, 'R G_and_S_cingul-Mid-Post')",Destrieux
+142,"(84, 'R G_cingul-Post-dorsal')",Destrieux
+143,"(85, 'R G_cingul-Post-ventral')",Destrieux
+144,"(86, 'R G_cuneus')",Destrieux
+145,"(87, 'R G_front_inf-Opercular')",Destrieux
+146,"(88, 'R G_front_inf-Orbital')",Destrieux
+147,"(89, 'R G_front_inf-Triangul')",Destrieux
+148,"(90, 'R G_front_middle')",Destrieux
+149,"(91, 'R G_front_sup')",Destrieux
+150,"(92, 'R G_Ins_lg_and_S_cent_ins')",Destrieux
+151,"(93, 'R G_insular_short')",Destrieux
+152,"(94, 'R G_occipital_middle')",Destrieux
+153,"(95, 'R G_occipital_sup')",Destrieux
+154,"(96, 'R G_oc-temp_lat-fusifor')",Destrieux
+155,"(97, 'R G_oc-temp_med-Lingual')",Destrieux
+156,"(98, 'R G_oc-temp_med-Parahip')",Destrieux
+157,"(99, 'R G_orbital')",Destrieux
+158,"(100, 'R G_pariet_inf-Angular')",Destrieux
+159,"(101, 'R G_pariet_inf-Supramar')",Destrieux
+160,"(102, 'R G_parietal_sup')",Destrieux
+161,"(103, 'R G_postcentral')",Destrieux
+162,"(104, 'R G_precentral')",Destrieux
+163,"(105, 'R G_precuneus')",Destrieux
+164,"(106, 'R G_rectus')",Destrieux
+165,"(107, 'R G_subcallosal')",Destrieux
+166,"(108, 'R G_temp_sup-G_T_transv')",Destrieux
+167,"(109, 'R G_temp_sup-Lateral')",Destrieux
+168,"(110, 'R G_temp_sup-Plan_polar')",Destrieux
+169,"(111, 'R G_temp_sup-Plan_tempo')",Destrieux
+170,"(112, 'R G_temporal_inf')",Destrieux
+171,"(113, 'R G_temporal_middle')",Destrieux
+172,"(114, 'R Lat_Fis-ant-Horizont')",Destrieux
+173,"(115, 'R Lat_Fis-ant-Vertical')",Destrieux
+174,"(116, 'R Lat_Fis-post')",Destrieux
+175,"(118, 'R Pole_occipital')",Destrieux
+176,"(119, 'R Pole_temporal')",Destrieux
+177,"(120, 'R S_calcarine')",Destrieux
+178,"(121, 'R S_central')",Destrieux
+179,"(122, 'R S_cingul-Marginalis')",Destrieux
+180,"(123, 'R S_circular_insula_ant')",Destrieux
+181,"(124, 'R S_circular_insula_inf')",Destrieux
+182,"(125, 'R S_circular_insula_sup')",Destrieux
+183,"(126, 'R S_collat_transv_ant')",Destrieux
+184,"(127, 'R S_collat_transv_post')",Destrieux
+185,"(128, 'R S_front_inf')",Destrieux
+186,"(129, 'R S_front_middle')",Destrieux
+187,"(130, 'R S_front_sup')",Destrieux
+188,"(131, 'R S_interm_prim-Jensen')",Destrieux
+189,"(132, 'R S_intrapariet_and_P_trans')",Destrieux
+190,"(133, 'R S_oc_middle_and_Lunatus')",Destrieux
+191,"(134, 'R S_oc_sup_and_transversal')",Destrieux
+192,"(135, 'R S_occipital_ant')",Destrieux
+193,"(136, 'R S_oc-temp_lat')",Destrieux
+194,"(137, 'R S_oc-temp_med_and_Lingual')",Destrieux
+195,"(138, 'R S_orbital_lateral')",Destrieux
+196,"(139, 'R S_orbital_med-olfact')",Destrieux
+197,"(140, 'R S_orbital-H_Shaped')",Destrieux
+198,"(141, 'R S_parieto_occipital')",Destrieux
+199,"(142, 'R S_pericallosal')",Destrieux
+200,"(143, 'R S_postcentral')",Destrieux
+201,"(144, 'R S_precentral-inf-part')",Destrieux
+202,"(145, 'R S_precentral-sup-part')",Destrieux
+203,"(146, 'R S_suborbital')",Destrieux
+204,"(147, 'R S_subparietal')",Destrieux
+205,"(148, 'R S_temporal_inf')",Destrieux
+206,"(149, 'R S_temporal_sup')",Destrieux
+207,"(150, 'R S_temporal_transverse')",Destrieux
