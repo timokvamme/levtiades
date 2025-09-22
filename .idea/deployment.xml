@@ -2,13 +2,6 @@
 <project version="4">
   <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="'Hyades'">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="GenomeDK">
         <serverdata>
           <mappings>
@@ -16,21 +9,7 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="GenomeDK (2)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="GenomeDK (3)">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="GenomeDK (4)">
+      <paths name="Hyades">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dcb6ea7-f203-4208-a62f-105a3acd1f03" name="Changes" comment="First Commit">
-      <change afterPath="$PROJECT_DIR$/levtiades_atlas/validation/Screenshot_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/levtiades.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/levtiades.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +54,9 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/code/projects/levtiades&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -73,8 +76,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
-        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
+        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
       </set>
     </attachedChunks>
   </component>
@@ -86,7 +89,16 @@
       <option name="presentableId" value="Default" />
       <updated>1755167370789</updated>
       <workItem from="1755167371868" duration="12879000" />
-      <workItem from="1755223508003" duration="4593000" />
+      <workItem from="1755223508003" duration="6521000" />
+      <workItem from="1755294917214" duration="1031000" />
+      <workItem from="1756378363581" duration="243000" />
+      <workItem from="1756378648773" duration="581000" />
+      <workItem from="1756380249961" duration="586000" />
+      <workItem from="1756550430344" duration="1180000" />
+      <workItem from="1757853063019" duration="3300000" />
+      <workItem from="1757910563404" duration="6872000" />
+      <workItem from="1758525133483" duration="453000" />
+      <workItem from="1758525667799" duration="210000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
