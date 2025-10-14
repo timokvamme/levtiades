@@ -1,0 +1,36 @@
+Levtiades Atlas Project Information
+========================================
+
+COMPONENT ATLASES:
+
+1. Levinson-Bari Limbic Brainstem Atlas (2022)
+   - Source: Levinson et al. 2022
+   - Regions: 5 critical brainstem nuclei for psychiatric disorders
+   - Components: LC, NTS, VTA, PAG, DRN
+   - Native space: MNI152NLin2009bAsym (0.5mm)
+   - Label range: 1-5
+
+2. Tian Subcortical Atlas (Scale IV - S4)
+   - Source: Melbourne Subcortex Atlas v1.4
+   - Regions: 54 fine-grained subcortical areas
+   - Structures: Striatum, Thalamus, Hippocampus, Amygdala, Globus Pallidus
+   - Native space: MNI152NLin6Asym (2mm)
+   - Label range: 101-154 (offset by +100)
+
+3. Destrieux Cortical Atlas (2009)
+   - Source: Destrieux et al. 2010, via Nilearn
+   - Regions: 148 sulco-gyral cortical areas (74 per hemisphere)
+   - Native space: MNI152NLin2009aAsym (2mm)
+   - Label range: 201-348 (offset by +200)
+
+COMBINATION STRATEGY:
+- Hierarchical priority: Levinson > Tian > Destrieux
+- Template-to-template registration using ANTs
+- Target space: MNI152NLin2009cAsym at 2mm resolution
+- Total regions: 207 (5 + 54 + 148)
+
+PSYCHIATRIC CIRCUIT FOCUS:
+- Depression: LC-DRN-VTA connectivity
+- Anxiety: PAG-amygdala-prefrontal circuits
+- PTSD: Brainstem arousal system analysis
+- Addiction: VTA-striatal reward pathways

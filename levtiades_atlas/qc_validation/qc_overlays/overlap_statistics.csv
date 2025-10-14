@@ -1,0 +1,5 @@
+file,overlap_type,voxel_count,volume_mm3
+destrieux_mask.nii.gz,200,95328,762624
+levinson_mask.nii.gz,100,1325,10600
+overlap_visualization.nii.gz,3,334,2672
+tian_mask.nii.gz,150,7984,63872
