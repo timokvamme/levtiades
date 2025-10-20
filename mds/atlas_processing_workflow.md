@@ -1,110 +1,115 @@
-# Levtiades Atlas Processing Workflow
+# levtiades atlas processing workflow
 
-## Overview
+## overview
 
-The Levtiades Atlas combines three neuroimaging atlases into a unified brain parcellation optimized for psychiatric circuit analysis. Each component atlas undergoes specific processing to align to a common target space (MNI152NLin2009cAsym at 2.0mm resolution).
+the levtiades atlas combines three neuroimaging atlases into a unified brain parcellation optimized for psychiatric circuit analysis. each component atlas undergoes specific processing to align to a common target space (mni152nlin2009casym at 2.0mm resolution).
 
-## Component Atlases & Processing
+## component atlases & processing
 
-### 1. Levinson-Bari Limbic Brainstem Atlas
-- **Purpose**: Critical brainstem nuclei for psychiatric disorders
-- **Regions**: 5 nuclei (LC, NTS, VTA, PAG, DRN)
-- **Original Space**: MNI152NLin2009bAsym (0.5mm high resolution)
-- **Processing Method**: Same-space resampling via nilearn
-- **Final Labels**: 1-5
-- **Why Same-Space**: TemplateFlow template corruption required fallback to resampling approach
+### 1. levinson-bari limbic brainstem atlas
+- **purpose**: critical brainstem nuclei for psychiatric disorders
+- **regions**: 5 nuclei (lc, nts, vta, pag, drn)
+- **original space**: mni152nlin2009basym (0.5mm high resolution)
+- **processing method**: same-space resampling via nilearn
+- **final labels**: 1-5
+- **why same-space**: templateflow template corruption required fallback to resampling approach
 
-### 2. Tian Subcortical Atlas (Scale IV)
-- **Purpose**: Fine-grained subcortical structures
-- **Regions**: 54 subcortical areas (striatum, thalamus, hippocampus, amygdala, globus pallidus)
-- **Original Space**: MNI152NLin6Asym (2mm)
-- **Processing Method**: ANTs SyN template-to-template registration
-- **Label Transformation**: Original 1-54 → Final 101-154 (+100 offset)
-- **Registration Quality**: Smooth anatomical transformations verified
+### 2. tian subcortical atlas (scale iv)
+- **purpose**: fine-grained subcortical structures
+- **regions**: 54 subcortical areas (striatum, thalamus, hippocampus, amygdala, globus pallidus)
+- **original space**: mni152nlin2009casym (2mm)
+- **processing method**: same-space resampling via nilearn
+- **label transformation**: original 1-54 → final 6-59 (+5 offset)
+- **registration quality**: smooth anatomical transformations verified
 
-### 3. Destrieux Cortical Atlas
-- **Purpose**: Comprehensive cortical parcellation
-- **Regions**: 148 sulco-gyral areas (74 per hemisphere)
-- **Original Space**: MNI152NLin2009aAsym (2mm) via nilearn
-- **Processing Method**: ANTs SyN template-to-template registration
-- **Label Transformation**: Original 1-148 → Final 201-348 (+200 offset)
-- **Coverage**: Complete cortical gray matter
+### 3. destrieux cortical atlas
+- **purpose**: comprehensive cortical parcellation
+- **regions**: 148 sulco-gyral areas (74 per hemisphere, excluding medial wall)
+- **original regions**: 150 (includes 2 medial wall regions that are excluded)
+- **medial wall exclusion**: labels 42 (l medial_wall) and 117 (r medial_wall) removed before processing
+- **original space**: mni152nlin2009aasym (2mm) via nilearn
+- **processing method**: same-space resampling via nilearn (after medial wall removal)
+- **label transformation**:
+  - step 1: remove medial wall voxels (labels 42, 117)
+  - step 2: renumber remaining labels continuously (1-148)
+  - step 3: apply offset → final 60-207 (+59 offset)
+- **coverage**: complete cortical gray matter (medial wall excluded)
 
-## Target Space Standardization
+## target space standardization
 
-All atlases are aligned to:
-- **Template**: MNI152NLin2009cAsym
-- **Resolution**: 2.0mm isotropic voxels
-- **Coordinate System**: RAS+ orientation
-- **Interpolation**: Nearest neighbor (preserves integer labels)
+all atlases are aligned to:
+- **template**: mni152nlin2009casym
+- **resolution**: 2.0mm isotropic voxels
+- **coordinate system**: ras+ orientation
+- **interpolation**: nearest neighbor (preserves integer labels)
 
-## Hierarchical Combination Strategy
+## hierarchical combination strategy
 
-### Priority Order
-1. **Levinson** (highest priority) - Brainstem nuclei
-2. **Tian** (medium priority) - Subcortical structures
-3. **Destrieux** (lowest priority) - Cortical areas
+### priority order
+1. **levinson** (highest priority) - brainstem nuclei
+2. **tian** (medium priority) - subcortical structures
+3. **destrieux** (lowest priority) - cortical areas
 
-### Overlap Resolution
-- Higher priority atlas overwrites lower priority in overlapping voxels
-- Ensures psychiatric circuit nuclei (brainstem) are preserved
-- Maintains anatomical hierarchy (deep → superficial structures)
+### overlap resolution
+- higher priority atlas overwrites lower priority in overlapping voxels
+- ensures psychiatric circuit nuclei (brainstem) are preserved
+- maintains anatomical hierarchy (deep → superficial structures)
 
-## Output Files
+## output files
 
-### Individual Aligned Atlases
-Located in `final_atlas/aligned/` for MRIcroGL visualization:
-- `levinson_aligned.nii.gz` - Brainstem nuclei in target space
-- `tian_aligned.nii.gz` - Subcortical regions in target space
-- `destrieux_aligned.nii.gz` - Cortical areas in target space
+### individual aligned atlases
+located in `final_atlas/aligned/` for mricrogl visualization:
+- `levinson_aligned.nii.gz` - brainstem nuclei in target space
+- `tian_aligned.nii.gz` - subcortical regions in target space
+- `destrieux_aligned.nii.gz` - cortical areas in target space
 
-### Combined Atlases
-Located in `final_atlas/`:
-- `with_overlaps/levtiades_final.nii.gz` - **Main output atlas** with all 207 regions
-- `with_overlaps/levtiades_multichannel.nii.gz` - Multi-channel atlas format
-- `no_overlaps/levtiades_hierarchical.nii.gz` - Hierarchical atlas (priority-based, no overlaps)
+### combined atlases
+located in `final_atlas/`:
+- `with_overlaps/levtiades_final.nii.gz` - **main output atlas** with all 207 regions
+- `with_overlaps/levtiades_multichannel.nii.gz` - multi-channel atlas format
+- `no_overlaps/levtiades_hierarchical.nii.gz` - hierarchical atlas (priority-based, no overlaps)
 
-### Label Files
-Located in `final_atlas/`:
-- `levtiades_labels.txt` - Complete region labels and names
-- `levtiades_lookup_table.txt` - Label lookup table for visualization
-- `levtiades_labels.csv` - Detailed region information with coordinates
+### label files
+located in `final_atlas/`:
+- `levtiades_labels.txt` - complete region labels and names
+- `levtiades_lookup_table.txt` - label lookup table for visualization
+- `levtiades_labels.csv` - detailed region information with coordinates
 
-## Quality Control
+## quality control
 
-### Registration Validation
-- Visual inspection of template-to-template alignments
-- Anatomical plausibility checking
-- Centroid displacement analysis (<2mm acceptable)
+### registration validation
+- visual inspection of template-to-template alignments
+- anatomical plausibility checking
+- centroid displacement analysis (<2mm acceptable)
 
-### Overlap Analysis
-- Statistical overlap quantification
-- Boundary region identification
-- Hierarchical priority verification
+### overlap analysis
+- statistical overlap quantification
+- boundary region identification
+- hierarchical priority verification
 
-### Expert Review
-- QC images in `qc_validation/registration_qc/`
-- Overlap visualizations in `qc_validation/qc_overlays/`
-- Comprehensive report in `qc_validation/expert_qc_report.md`
+### expert review
+- qc images in `qc_validation/registration_qc/`
+- overlap visualizations in `qc_validation/qc_overlays/`
+- comprehensive report in `qc_validation/expert_qc_report.md`
 
-## Psychiatric Circuit Applications
+## psychiatric circuit applications
 
-### Target Disorders
-- **Depression**: LC-DRN-VTA connectivity analysis
-- **Anxiety**: PAG-amygdala-prefrontal circuit mapping
-- **PTSD**: Brainstem arousal system investigation
-- **Addiction**: VTA-striatal reward pathway studies
+### target disorders
+- **depression**: lc-drn-vta connectivity analysis
+- **anxiety**: pag-amygdala-prefrontal circuit mapping
+- **ptsd**: brainstem arousal system investigation
+- **addiction**: vta-striatal reward pathway studies
 
-### Research Advantages
-- Unified coordinate system for cross-study comparisons
-- Hierarchical labeling preserves critical small nuclei
-- Comprehensive coverage from brainstem to cortex
-- Optimized for psychiatric neurocircuit research
+### research advantages
+- unified coordinate system for cross-study comparisons
+- hierarchical labeling preserves critical small nuclei
+- comprehensive coverage from brainstem to cortex
+- optimized for psychiatric neurocircuit research
 
-## Technical Implementation
+## technical implementation
 
-The processing pipeline is implemented in:
-- `2_levtiades_to_mni2009c.py` - Main atlas creation script
-- Uses ANTs for robust template-to-template registration
-- Incorporates nilearn for same-space resampling fallback
-- Implements comprehensive error handling and validation
+the processing pipeline is implemented in:
+- `2_levtiades_to_mni2009c.py` - main atlas creation script
+- uses ants for robust template-to-template registration
+- incorporates nilearn for same-space resampling fallback
+- implements comprehensive error handling and validation

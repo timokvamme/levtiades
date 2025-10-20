@@ -1,12 +1,12 @@
-# Repository Cleanup Report
+# repository cleanup report
 
-## 🧹 **Comprehensive Cleanup Completed!**
+## 🧹 **comprehensive cleanup completed!**
 
-Every file in the repository has been systematically reviewed and organized.
+every file in the repository has been systematically reviewed and organized.
 
 ---
 
-## 📁 **Final Clean Repository Structure**
+## 📁 **final clean repository structure**
 
 ```
 levtiades/                           (ROOT - 79MB total)
@@ -45,65 +45,65 @@ levtiades/                           (ROOT - 79MB total)
 
 ---
 
-## 🗑️ **Files/Folders Removed**
+## 🗑️ **files/folders removed**
 
-### **❌ Completely Deleted:**
-- `tiandes_atlas/` (21MB) - Predecessor atlas, now obsolete
-- `levtiades_pype/` - Python virtual environment
-- `test_levtiades_output/` (1MB) - Test output artifacts
-- `levtiades_atlas/analysis/` - Empty folder
-- `levtiades_atlas/centroid_validation/` - Duplicated in validation/
-- `levtiades_atlas/levtiades_atlas/` - Nested directory error
-- `levtiades_atlas/legacy_scripts/` - Moved to main legacy_scripts
-- `levtiades_atlas/index_mapping_reference.csv` - Obsolete mapping file
+### **❌ completely deleted:**
+- `tiandes_atlas/` (21mb) - predecessor atlas, now obsolete
+- `levtiades_pype/` - python virtual environment
+- `test_levtiades_output/` (1mb) - test output artifacts
+- `levtiades_atlas/analysis/` - empty folder
+- `levtiades_atlas/centroid_validation/` - duplicated in validation/
+- `levtiades_atlas/levtiades_atlas/` - nested directory error
+- `levtiades_atlas/legacy_scripts/` - moved to main legacy_scripts
+- `levtiades_atlas/index_mapping_reference.csv` - obsolete mapping file
 
-### **📦 Moved to legacy_artifacts/ (2.7GB):**
-- `docs/` (20MB) - Research papers and Claude Bajada correspondence
-- `ants_install/` (2.6GB) - ANTs installation files
+### **📦 moved to legacy_artifacts/ (2.7gb):**
+- `docs/` (20mb) - research papers and claude bajada correspondence
+- `ants_install/` (2.6gb) - ants installation files
 
-### **📦 Moved to legacy_outputs/:**
-- `levtiades_atlas/aligned_atlases/` (132KB) - Old processing intermediates
-- `levtiades_atlas/raw_atlases/` (3.9MB) - Old processing intermediates
-
----
-
-## ✅ **Issues Fixed**
-
-### **1. Redundant Files Eliminated**
-- **Before**: Multiple copies of scripts in different locations
-- **After**: Single copy of each script in appropriate location
-
-### **2. Nested Directory Error Fixed**
-- **Before**: `levtiades_atlas/levtiades_atlas/` nested structure
-- **After**: Clean single-level directory structure
-
-### **3. Obsolete Folders Cleaned**
-- **Before**: 7 different processing folders with mixed content
-- **After**: 3 clean folders (final_atlas, validation, legacy_outputs)
-
-### **4. Legacy Scripts Consolidated**
-- **Before**: 2 separate legacy_scripts folders
-- **After**: Single consolidated legacy_scripts/ folder
-
-### **5. Documentation Organized**
-- **Before**: .md files scattered throughout repository
-- **After**: All current docs in mds/, historical docs in mds/old/
+### **📦 moved to legacy_outputs/:**
+- `levtiades_atlas/aligned_atlases/` (132kb) - old processing intermediates
+- `levtiades_atlas/raw_atlases/` (3.9mb) - old processing intermediates
 
 ---
 
-## 📊 **Space Savings**
+## ✅ **issues fixed**
 
-| Category | Before | After | Savings |
+### **1. redundant files eliminated**
+- **before**: multiple copies of scripts in different locations
+- **after**: single copy of each script in appropriate location
+
+### **2. nested directory error fixed**
+- **before**: `levtiades_atlas/levtiades_atlas/` nested structure
+- **after**: clean single-level directory structure
+
+### **3. obsolete folders cleaned**
+- **before**: 7 different processing folders with mixed content
+- **after**: 3 clean folders (final_atlas, validation, legacy_outputs)
+
+### **4. legacy scripts consolidated**
+- **before**: 2 separate legacy_scripts folders
+- **after**: single consolidated legacy_scripts/ folder
+
+### **5. documentation organized**
+- **before**: .md files scattered throughout repository
+- **after**: all current docs in mds/, historical docs in mds/old/
+
+---
+
+## 📊 **space savings**
+
+| category | before | after | savings |
 |----------|--------|-------|---------|
-| **Main Repository** | ~100MB+ | 79MB | ~25%+ |
-| **Redundant Scripts** | Scattered | Consolidated | 100% reduction |
-| **Duplicate Data** | Multiple copies | Single copy | ~50% reduction |
+| **main repository** | ~100mb+ | 79mb | ~25%+ |
+| **redundant scripts** | scattered | consolidated | 100% reduction |
+| **duplicate data** | multiple copies | single copy | ~50% reduction |
 
 ---
 
-## 🎯 **Current Production Pipeline**
+## 🎯 **current production pipeline**
 
-### **Clean 3-Step Workflow:**
+### **clean 3-step workflow:**
 ```bash
 # Step 0: Download atlases
 cd downloaded_atlases && python 0_downloading_destriux.py
@@ -118,21 +118,21 @@ python 2_levtiades_to_mni2009c.py
 python 3_enhanced_qc_validation.py
 ```
 
-### **All Outputs Available:**
-- ✅ Final atlas: `final_atlas/no_overlaps/levtiades_hierarchical.nii.gz`
-- ✅ Individual ROIs: `individual_rois/levtiades_roi_*.nii.gz` (207 files)
-- ✅ QC Images: `validation/Screenshot_1.jpg` and QC overlays
-- ✅ Documentation: Complete in `mds/`
+### **all outputs available:**
+- ✅ final atlas: `final_atlas/no_overlaps/levtiades_hierarchical.nii.gz`
+- ✅ individual rois: `individual_rois/levtiades_roi_*.nii.gz` (207 files)
+- ✅ qc images: `validation/Screenshot_1.jpg` and qc overlays
+- ✅ documentation: complete in `mds/`
 
 ---
 
-## 🏆 **Repository Status: PRODUCTION READY**
+## 🏆 **repository status: production ready**
 
-The repository is now:
-- **🧹 Clean**: No redundant or obsolete files
-- **📁 Organized**: Logical folder structure
-- **🔧 Functional**: All scripts working with embedded parameters
-- **📝 Documented**: Comprehensive documentation
-- **⚡ Efficient**: 25%+ space savings while preserving all functionality
+the repository is now:
+- **🧹 clean**: no redundant or obsolete files
+- **📁 organized**: logical folder structure
+- **🔧 functional**: all scripts working with embedded parameters
+- **📝 documented**: comprehensive documentation
+- **⚡ efficient**: 25%+ space savings while preserving all functionality
 
-**Total cleanup**: Removed ~30MB of redundant files, moved 2.7GB to archives, and streamlined structure for optimal usability.
+**total cleanup**: removed ~30mb of redundant files, moved 2.7gb to archives, and streamlined structure for optimal usability.

@@ -1,163 +1,217 @@
 # Levtiades Atlas Label File
-# Format: ID: Region_Name [Source_Atlas]
+# Format: ID: Region_Name [Source_Atlas] x=XX.XX y=YY.YY z=ZZ.ZZ
+# Medial wall regions (L: 42, R: 117) excluded from Destrieux
+# Total regions: 5 Levinson + 54 Tian + 148 Destrieux = 207
 
 # LEVINSON (1-5)
-1: Locus_Coeruleus_LC [Levinson]
-2: Nucleus_Tractus_Solitarius_NTS [Levinson]
-3: Ventral_Tegmental_Area_VTA [Levinson]
-4: Periaqueductal_Gray_PAG [Levinson]
-5: Dorsal_Raphe_Nucleus_DRN [Levinson]
+1: Locus_Coeruleus_LC [Levinson] x=0.78 y=-39.17 z=-27.63
+2: Nucleus_Tractus_Solitarius_NTS [Levinson] x=0.63 y=-41.64 z=-47.65
+3: Ventral_Tegmental_Area_VTA [Levinson] x=0.33 y=-18.31 z=-14.59
+4: Periaqueductal_Gray_PAG [Levinson] x=0.38 y=-31.70 z=-8.44
+5: Dorsal_Raphe_Nucleus_DRN [Levinson] x=0.52 y=-33.91 z=-20.75
 
-# TIAN (101-...)
+# TIAN (6-59)
+6: HIP-head-m1-rh [Tian] x=19.55 y=-11.84 z=-21.56
+7: HIP-head-m2-rh [Tian] x=21.23 y=-18.19 z=-17.43
+8: THA-VAip-rh [Tian] x=8.31 y=-15.15 z=3.39
+9: THA-VAia-rh [Tian] x=5.53 y=-7.18 z=2.00
+10: HIP-head-l-rh [Tian] x=29.28 y=-15.33 z=-20.86
+11: HIP-body-rh [Tian] x=29.64 y=-28.08 z=-11.25
+12: HIP-tail-rh [Tian] x=23.95 y=-38.18 z=-1.56
+13: THA-VPm-rh [Tian] x=9.02 y=-24.61 z=1.30
+14: THA-VPl-rh [Tian] x=17.07 y=-21.83 z=3.19
+15: THA-VAs-rh [Tian] x=9.26 y=-9.66 z=11.69
+16: THA-DAm-rh [Tian] x=9.20 y=-24.74 z=10.64
+17: THA-DAl-rh [Tian] x=16.15 y=-20.17 z=12.45
+18: PUT-VA-rh [Tian] x=21.84 y=10.98 z=-5.80
+19: PUT-DA-rh [Tian] x=25.40 y=5.93 z=0.53
+20: PUT-VP-rh [Tian] x=30.23 y=-11.72 z=-0.65
+21: PUT-DP-rh [Tian] x=26.83 y=-2.78 z=6.43
+22: CAU-VA-rh [Tian] x=10.08 y=10.72 z=4.36
+23: CAU-DA-rh [Tian] x=15.15 y=16.66 z=7.43
+24: CAU-body-rh [Tian] x=13.78 y=4.98 z=14.75
+25: CAU-tail-rh [Tian] x=15.31 y=-3.12 z=19.17
+26: lAMY-rh [Tian] x=27.10 y=-2.44 z=-21.99
+27: mAMY-rh [Tian] x=20.77 y=-5.77 z=-16.78
+28: THA-DP-rh [Tian] x=16.43 y=-31.37 z=2.33
+29: NAc-shell-rh [Tian] x=10.66 y=10.45 z=-7.31
+30: NAc-core-rh [Tian] x=14.28 y=18.06 z=-3.41
+31: pGP-rh [Tian] x=22.57 y=-8.77 z=-2.14
+32: aGP-rh [Tian] x=17.17 y=-0.61 z=-2.24
+33: HIP-head-m1-lh [Tian] x=-18.55 y=-11.84 z=-21.56
+34: HIP-head-m2-lh [Tian] x=-20.23 y=-18.19 z=-17.43
+35: THA-VAip-lh [Tian] x=-7.31 y=-15.15 z=3.39
+36: THA-VAia-lh [Tian] x=-4.53 y=-7.18 z=2.00
+37: HIP-head-l-lh [Tian] x=-28.28 y=-15.33 z=-20.86
+38: HIP-body-lh [Tian] x=-28.64 y=-28.08 z=-11.25
+39: HIP-tail-lh [Tian] x=-22.95 y=-38.18 z=-1.56
+40: THA-VPm-lh [Tian] x=-8.02 y=-24.61 z=1.30
+41: THA-VPl-lh [Tian] x=-16.07 y=-21.83 z=3.19
+42: THA-VAs-lh [Tian] x=-8.26 y=-9.66 z=11.69
+43: THA-DAm-lh [Tian] x=-8.20 y=-24.74 z=10.64
+44: THA-DAl-lh [Tian] x=-15.15 y=-20.17 z=12.45
+45: PUT-VA-lh [Tian] x=-20.84 y=10.98 z=-5.80
+46: PUT-DA-lh [Tian] x=-24.40 y=5.93 z=0.53
+47: PUT-VP-lh [Tian] x=-29.23 y=-11.72 z=-0.65
+48: PUT-DP-lh [Tian] x=-25.83 y=-2.78 z=6.43
+49: CAU-VA-lh [Tian] x=-9.08 y=10.72 z=4.36
+50: CAU-DA-lh [Tian] x=-14.15 y=16.66 z=7.43
+51: CAU-body-lh [Tian] x=-12.78 y=4.98 z=14.75
+52: CAU-tail-lh [Tian] x=-14.31 y=-3.12 z=19.17
+53: lAMY-lh [Tian] x=-26.10 y=-2.44 z=-21.99
+54: mAMY-lh [Tian] x=-19.77 y=-5.77 z=-16.78
+55: THA-DP-lh [Tian] x=-15.43 y=-31.37 z=2.33
+56: NAc-shell-lh [Tian] x=-9.66 y=10.45 z=-7.31
+57: NAc-core-lh [Tian] x=-13.28 y=18.06 z=-3.41
+58: pGP-lh [Tian] x=-21.57 y=-8.77 z=-2.14
+59: aGP-lh [Tian] x=-16.17 y=-0.61 z=-2.24
 
-# DESTRIEUX (201-...)
-201: L G_and_S_frontomargin [Destrieux]
-202: L G_and_S_occipital_inf [Destrieux]
-203: L G_and_S_paracentral [Destrieux]
-204: L G_and_S_subcentral [Destrieux]
-205: L G_and_S_transv_frontopol [Destrieux]
-206: L G_and_S_cingul-Ant [Destrieux]
-207: L G_and_S_cingul-Mid-Ant [Destrieux]
-208: L G_and_S_cingul-Mid-Post [Destrieux]
-209: L G_cingul-Post-dorsal [Destrieux]
-210: L G_cingul-Post-ventral [Destrieux]
-211: L G_cuneus [Destrieux]
-212: L G_front_inf-Opercular [Destrieux]
-213: L G_front_inf-Orbital [Destrieux]
-214: L G_front_inf-Triangul [Destrieux]
-215: L G_front_middle [Destrieux]
-216: L G_front_sup [Destrieux]
-217: L G_Ins_lg_and_S_cent_ins [Destrieux]
-218: L G_insular_short [Destrieux]
-219: L G_occipital_middle [Destrieux]
-220: L G_occipital_sup [Destrieux]
-221: L G_oc-temp_lat-fusifor [Destrieux]
-222: L G_oc-temp_med-Lingual [Destrieux]
-223: L G_oc-temp_med-Parahip [Destrieux]
-224: L G_orbital [Destrieux]
-225: L G_pariet_inf-Angular [Destrieux]
-226: L G_pariet_inf-Supramar [Destrieux]
-227: L G_parietal_sup [Destrieux]
-228: L G_postcentral [Destrieux]
-229: L G_precentral [Destrieux]
-230: L G_precuneus [Destrieux]
-231: L G_rectus [Destrieux]
-232: L G_subcallosal [Destrieux]
-233: L G_temp_sup-G_T_transv [Destrieux]
-234: L G_temp_sup-Lateral [Destrieux]
-235: L G_temp_sup-Plan_polar [Destrieux]
-236: L G_temp_sup-Plan_tempo [Destrieux]
-237: L G_temporal_inf [Destrieux]
-238: L G_temporal_middle [Destrieux]
-239: L Lat_Fis-ant-Horizont [Destrieux]
-240: L Lat_Fis-ant-Vertical [Destrieux]
-241: L Lat_Fis-post [Destrieux]
-242: L Medial_wall [Destrieux]
-243: L Pole_occipital [Destrieux]
-244: L Pole_temporal [Destrieux]
-245: L S_calcarine [Destrieux]
-246: L S_central [Destrieux]
-247: L S_cingul-Marginalis [Destrieux]
-248: L S_circular_insula_ant [Destrieux]
-249: L S_circular_insula_inf [Destrieux]
-250: L S_circular_insula_sup [Destrieux]
-251: L S_collat_transv_ant [Destrieux]
-252: L S_collat_transv_post [Destrieux]
-253: L S_front_inf [Destrieux]
-254: L S_front_middle [Destrieux]
-255: L S_front_sup [Destrieux]
-256: L S_interm_prim-Jensen [Destrieux]
-257: L S_intrapariet_and_P_trans [Destrieux]
-258: L S_oc_middle_and_Lunatus [Destrieux]
-259: L S_oc_sup_and_transversal [Destrieux]
-260: L S_occipital_ant [Destrieux]
-261: L S_oc-temp_lat [Destrieux]
-262: L S_oc-temp_med_and_Lingual [Destrieux]
-263: L S_orbital_lateral [Destrieux]
-264: L S_orbital_med-olfact [Destrieux]
-265: L S_orbital-H_Shaped [Destrieux]
-266: L S_parieto_occipital [Destrieux]
-267: L S_pericallosal [Destrieux]
-268: L S_postcentral [Destrieux]
-269: L S_precentral-inf-part [Destrieux]
-270: L S_precentral-sup-part [Destrieux]
-271: L S_suborbital [Destrieux]
-272: L S_subparietal [Destrieux]
-273: L S_temporal_inf [Destrieux]
-274: L S_temporal_sup [Destrieux]
-275: L S_temporal_transverse [Destrieux]
-276: R G_and_S_frontomargin [Destrieux]
-277: R G_and_S_occipital_inf [Destrieux]
-278: R G_and_S_paracentral [Destrieux]
-279: R G_and_S_subcentral [Destrieux]
-280: R G_and_S_transv_frontopol [Destrieux]
-281: R G_and_S_cingul-Ant [Destrieux]
-282: R G_and_S_cingul-Mid-Ant [Destrieux]
-283: R G_and_S_cingul-Mid-Post [Destrieux]
-284: R G_cingul-Post-dorsal [Destrieux]
-285: R G_cingul-Post-ventral [Destrieux]
-286: R G_cuneus [Destrieux]
-287: R G_front_inf-Opercular [Destrieux]
-288: R G_front_inf-Orbital [Destrieux]
-289: R G_front_inf-Triangul [Destrieux]
-290: R G_front_middle [Destrieux]
-291: R G_front_sup [Destrieux]
-292: R G_Ins_lg_and_S_cent_ins [Destrieux]
-293: R G_insular_short [Destrieux]
-294: R G_occipital_middle [Destrieux]
-295: R G_occipital_sup [Destrieux]
-296: R G_oc-temp_lat-fusifor [Destrieux]
-297: R G_oc-temp_med-Lingual [Destrieux]
-298: R G_oc-temp_med-Parahip [Destrieux]
-299: R G_orbital [Destrieux]
-300: R G_pariet_inf-Angular [Destrieux]
-301: R G_pariet_inf-Supramar [Destrieux]
-302: R G_parietal_sup [Destrieux]
-303: R G_postcentral [Destrieux]
-304: R G_precentral [Destrieux]
-305: R G_precuneus [Destrieux]
-306: R G_rectus [Destrieux]
-307: R G_subcallosal [Destrieux]
-308: R G_temp_sup-G_T_transv [Destrieux]
-309: R G_temp_sup-Lateral [Destrieux]
-310: R G_temp_sup-Plan_polar [Destrieux]
-311: R G_temp_sup-Plan_tempo [Destrieux]
-312: R G_temporal_inf [Destrieux]
-313: R G_temporal_middle [Destrieux]
-314: R Lat_Fis-ant-Horizont [Destrieux]
-315: R Lat_Fis-ant-Vertical [Destrieux]
-316: R Lat_Fis-post [Destrieux]
-317: R Medial_wall [Destrieux]
-318: R Pole_occipital [Destrieux]
-319: R Pole_temporal [Destrieux]
-320: R S_calcarine [Destrieux]
-321: R S_central [Destrieux]
-322: R S_cingul-Marginalis [Destrieux]
-323: R S_circular_insula_ant [Destrieux]
-324: R S_circular_insula_inf [Destrieux]
-325: R S_circular_insula_sup [Destrieux]
-326: R S_collat_transv_ant [Destrieux]
-327: R S_collat_transv_post [Destrieux]
-328: R S_front_inf [Destrieux]
-329: R S_front_middle [Destrieux]
-330: R S_front_sup [Destrieux]
-331: R S_interm_prim-Jensen [Destrieux]
-332: R S_intrapariet_and_P_trans [Destrieux]
-333: R S_oc_middle_and_Lunatus [Destrieux]
-334: R S_oc_sup_and_transversal [Destrieux]
-335: R S_occipital_ant [Destrieux]
-336: R S_oc-temp_lat [Destrieux]
-337: R S_oc-temp_med_and_Lingual [Destrieux]
-338: R S_orbital_lateral [Destrieux]
-339: R S_orbital_med-olfact [Destrieux]
-340: R S_orbital-H_Shaped [Destrieux]
-341: R S_parieto_occipital [Destrieux]
-342: R S_pericallosal [Destrieux]
-343: R S_postcentral [Destrieux]
-344: R S_precentral-inf-part [Destrieux]
-345: R S_precentral-sup-part [Destrieux]
-346: R S_suborbital [Destrieux]
-347: R S_subparietal [Destrieux]
-348: R S_temporal_inf [Destrieux]
-349: R S_temporal_sup [Destrieux]
-350: R S_temporal_transverse [Destrieux]
+# DESTRIEUX (60-207)
+60: L G_and_S_frontomargin [Destrieux] x=-23.85 y=57.20 z=-8.66
+61: L G_and_S_occipital_inf [Destrieux] x=-37.74 y=-81.80 z=-12.46
+62: L G_and_S_paracentral [Destrieux] x=-8.70 y=-32.92 z=68.34
+63: L G_and_S_subcentral [Destrieux] x=-56.77 y=-10.82 z=15.08
+64: L G_and_S_transv_frontopol [Destrieux] x=-14.71 y=64.14 z=-1.12
+65: L G_and_S_cingul-Ant [Destrieux] x=-8.53 y=39.40 z=9.94
+66: L G_and_S_cingul-Mid-Ant [Destrieux] x=-7.87 y=16.25 z=35.37
+67: L G_and_S_cingul-Mid-Post [Destrieux] x=-8.39 y=-10.85 z=41.67
+68: L G_cingul-Post-dorsal [Destrieux] x=-4.51 y=-38.69 z=31.42
+69: L G_cingul-Post-ventral [Destrieux] x=-8.16 y=-47.89 z=5.58
+70: L G_cuneus [Destrieux] x=-6.00 y=-81.43 z=17.64
+71: L G_front_inf-Opercular [Destrieux] x=-50.60 y=12.17 z=9.82
+72: L G_front_inf-Orbital [Destrieux] x=-44.66 y=30.99 z=-9.72
+73: L G_front_inf-Triangul [Destrieux] x=-50.35 y=30.71 z=4.61
+74: L G_front_middle [Destrieux] x=-36.55 y=32.54 z=33.14
+75: L G_front_sup [Destrieux] x=-10.36 y=25.98 z=46.39
+76: L G_Ins_lg_and_S_cent_ins [Destrieux] x=-38.98 y=-7.38 z=0.05
+77: L G_insular_short [Destrieux] x=-37.55 y=10.17 z=-2.98
+78: L G_occipital_middle [Destrieux] x=-40.25 y=-83.46 z=11.64
+79: L G_occipital_sup [Destrieux] x=-15.33 y=-88.43 z=28.16
+80: L G_oc-temp_lat-fusifor [Destrieux] x=-35.15 y=-53.45 z=-19.27
+81: L G_oc-temp_med-Lingual [Destrieux] x=-11.39 y=-71.89 z=-5.31
+82: L G_oc-temp_med-Parahip [Destrieux] x=-23.35 y=-19.58 z=-25.52
+83: L G_orbital [Destrieux] x=-28.42 y=34.78 z=-17.32
+84: L G_pariet_inf-Angular [Destrieux] x=-43.44 y=-66.60 z=37.09
+85: L G_pariet_inf-Supramar [Destrieux] x=-56.38 y=-36.30 z=31.27
+86: L G_parietal_sup [Destrieux] x=-21.94 y=-60.11 z=58.27
+87: L G_postcentral [Destrieux] x=-45.12 y=-24.27 z=54.23
+88: L G_precentral [Destrieux] x=-43.30 y=-8.41 z=50.69
+89: L G_precuneus [Destrieux] x=-6.60 y=-57.17 z=41.22
+90: L G_rectus [Destrieux] x=-5.56 y=38.85 z=-19.58
+91: L G_subcallosal [Destrieux] x=-4.39 y=16.01 z=-9.80
+92: L G_temp_sup-G_T_transv [Destrieux] x=-48.01 y=-18.91 z=6.58
+93: L G_temp_sup-Lateral [Destrieux] x=-58.72 y=-11.19 z=-5.40
+94: L G_temp_sup-Plan_polar [Destrieux] x=-41.24 y=4.74 z=-20.06
+95: L G_temp_sup-Plan_tempo [Destrieux] x=-57.74 y=-37.31 z=17.03
+96: L G_temporal_inf [Destrieux] x=-52.05 y=-33.90 z=-26.14
+97: L G_temporal_middle [Destrieux] x=-60.43 y=-30.02 z=-12.75
+98: L Lat_Fis-ant-Horizont [Destrieux] x=-38.44 y=32.19 z=-2.07
+99: L Lat_Fis-ant-Vertical [Destrieux] x=-43.76 y=21.95 z=7.59
+100: L Lat_Fis-post [Destrieux] x=-41.16 y=-33.23 z=17.24
+101: L Pole_occipital [Destrieux] x=-18.84 y=-97.88 z=-3.21
+102: L Pole_temporal [Destrieux] x=-34.90 y=7.49 z=-37.39
+103: L S_calcarine [Destrieux] x=-16.83 y=-66.59 z=5.04
+104: L S_central [Destrieux] x=-36.79 y=-19.94 z=45.63
+105: L S_cingul-Marginalis [Destrieux] x=-14.34 y=-36.35 z=47.43
+106: L S_circular_insula_ant [Destrieux] x=-30.41 y=22.22 z=-9.01
+107: L S_circular_insula_inf [Destrieux] x=-41.41 y=-12.05 z=-7.08
+108: L S_circular_insula_sup [Destrieux] x=-36.25 y=6.77 z=10.91
+109: L S_collat_transv_ant [Destrieux] x=-41.23 y=-21.35 z=-26.20
+110: L S_collat_transv_post [Destrieux] x=-25.25 y=-78.07 z=-7.75
+111: L S_front_inf [Destrieux] x=-39.86 y=23.73 z=21.53
+112: L S_front_middle [Destrieux] x=-27.58 y=43.48 z=20.17
+113: L S_front_sup [Destrieux] x=-24.43 y=19.59 z=44.33
+114: L S_interm_prim-Jensen [Destrieux] x=-51.10 y=-52.16 z=31.01
+115: L S_intrapariet_and_P_trans [Destrieux] x=-29.63 y=-59.47 z=39.35
+116: L S_oc_middle_and_Lunatus [Destrieux] x=-31.29 y=-86.24 z=3.91
+117: L S_oc_sup_and_transversal [Destrieux] x=-27.80 y=-79.82 z=19.35
+118: L S_occipital_ant [Destrieux] x=-43.57 y=-68.38 z=1.03
+119: L S_oc-temp_lat [Destrieux] x=-43.62 y=-50.99 z=-13.94
+120: L S_oc-temp_med_and_Lingual [Destrieux] x=-29.41 y=-49.00 z=-10.92
+121: L S_orbital_lateral [Destrieux] x=-41.20 y=42.03 z=-2.27
+122: L S_orbital_med-olfact [Destrieux] x=-13.36 y=24.35 z=-17.97
+123: L S_orbital-H_Shaped [Destrieux] x=-26.45 y=36.55 z=-12.64
+124: L S_parieto_occipital [Destrieux] x=-16.04 y=-67.73 z=23.66
+125: L S_pericallosal [Destrieux] x=-5.33 y=-3.56 z=20.12
+126: L S_postcentral [Destrieux] x=-37.95 y=-35.12 z=46.04
+127: L S_precentral-inf-part [Destrieux] x=-44.35 y=4.43 z=27.99
+128: L S_precentral-sup-part [Destrieux] x=-29.09 y=-7.95 z=52.63
+129: L S_suborbital [Destrieux] x=-7.76 y=40.38 z=-9.77
+130: L S_subparietal [Destrieux] x=-10.87 y=-48.04 z=35.69
+131: L S_temporal_inf [Destrieux] x=-51.84 y=-37.42 z=-15.57
+132: L S_temporal_sup [Destrieux] x=-49.82 y=-41.43 z=4.43
+133: L S_temporal_transverse [Destrieux] x=-51.02 y=-25.00 z=3.56
+134: R G_and_S_frontomargin [Destrieux] x=21.08 y=58.24 z=-9.93
+135: R G_and_S_occipital_inf [Destrieux] x=41.20 y=-77.83 z=-11.65
+136: R G_and_S_paracentral [Destrieux] x=6.30 y=-32.88 z=68.17
+137: R G_and_S_subcentral [Destrieux] x=56.37 y=-9.21 z=15.80
+138: R G_and_S_transv_frontopol [Destrieux] x=15.55 y=63.65 z=1.06
+139: R G_and_S_cingul-Ant [Destrieux] x=8.07 y=39.22 z=8.08
+140: R G_and_S_cingul-Mid-Ant [Destrieux] x=7.22 y=16.87 z=36.02
+141: R G_and_S_cingul-Mid-Post [Destrieux] x=6.16 y=-9.67 z=42.22
+142: R G_cingul-Post-dorsal [Destrieux] x=2.88 y=-38.40 z=32.69
+143: R G_cingul-Post-ventral [Destrieux] x=7.63 y=-49.61 z=7.17
+144: R G_cuneus [Destrieux] x=5.60 y=-78.45 z=19.14
+145: R G_front_inf-Opercular [Destrieux] x=50.52 y=9.34 z=8.55
+146: R G_front_inf-Orbital [Destrieux] x=48.38 y=33.34 z=-7.33
+147: R G_front_inf-Triangul [Destrieux] x=51.69 y=29.30 z=7.98
+148: R G_front_middle [Destrieux] x=37.02 y=33.31 z=32.40
+149: R G_front_sup [Destrieux] x=9.68 y=27.36 z=46.25
+150: R G_Ins_lg_and_S_cent_ins [Destrieux] x=39.08 y=-4.20 z=-2.43
+151: R G_insular_short [Destrieux] x=38.12 y=10.76 z=-2.08
+152: R G_occipital_middle [Destrieux] x=40.42 y=-80.78 z=14.14
+153: R G_occipital_sup [Destrieux] x=18.55 y=-84.71 z=32.44
+154: R G_oc-temp_lat-fusifor [Destrieux] x=33.31 y=-50.55 z=-18.83
+155: R G_oc-temp_med-Lingual [Destrieux] x=10.98 y=-66.10 z=-4.07
+156: R G_oc-temp_med-Parahip [Destrieux] x=24.58 y=-16.60 z=-26.66
+157: R G_orbital [Destrieux] x=28.01 y=35.05 z=-17.31
+158: R G_pariet_inf-Angular [Destrieux] x=45.41 y=-61.46 z=39.21
+159: R G_pariet_inf-Supramar [Destrieux] x=57.16 y=-31.85 z=31.74
+160: R G_parietal_sup [Destrieux] x=21.82 y=-55.77 z=61.19
+161: R G_postcentral [Destrieux] x=43.79 y=-22.92 z=54.56
+162: R G_precentral [Destrieux] x=41.61 y=-7.40 z=51.04
+163: R G_precuneus [Destrieux] x=5.62 y=-58.85 z=43.36
+164: R G_rectus [Destrieux] x=5.03 y=33.67 z=-20.58
+165: R G_subcallosal [Destrieux] x=4.87 y=15.03 z=-12.72
+166: R G_temp_sup-G_T_transv [Destrieux] x=47.53 y=-16.79 z=6.66
+167: R G_temp_sup-Lateral [Destrieux] x=59.37 y=-8.59 z=-5.02
+168: R G_temp_sup-Plan_polar [Destrieux] x=42.58 y=5.55 z=-18.65
+169: R G_temp_sup-Plan_tempo [Destrieux] x=57.46 y=-31.01 z=17.33
+170: R G_temporal_inf [Destrieux] x=52.77 y=-32.36 z=-25.78
+171: R G_temporal_middle [Destrieux] x=60.83 y=-27.57 z=-12.78
+172: R Lat_Fis-ant-Horizont [Destrieux] x=40.96 y=28.87 z=2.20
+173: R Lat_Fis-ant-Vertical [Destrieux] x=44.89 y=21.29 z=9.05
+174: R Lat_Fis-post [Destrieux] x=40.02 y=-27.31 z=17.89
+175: R Pole_occipital [Destrieux] x=17.29 y=-95.20 z=-2.09
+176: R Pole_temporal [Destrieux] x=37.02 y=8.17 z=-37.01
+177: R S_calcarine [Destrieux] x=17.42 y=-63.53 z=5.75
+178: R S_central [Destrieux] x=35.39 y=-18.89 z=46.20
+179: R S_cingul-Marginalis [Destrieux] x=12.56 y=-35.81 z=47.53
+180: R S_circular_insula_ant [Destrieux] x=31.38 y=23.39 z=-6.62
+181: R S_circular_insula_inf [Destrieux] x=42.30 y=-10.58 z=-7.41
+182: R S_circular_insula_sup [Destrieux] x=36.15 y=7.54 z=10.62
+183: R S_collat_transv_ant [Destrieux] x=42.12 y=-20.46 z=-25.77
+184: R S_collat_transv_post [Destrieux] x=25.66 y=-77.55 z=-8.31
+185: R S_front_inf [Destrieux] x=39.22 y=25.59 z=21.59
+186: R S_front_middle [Destrieux] x=28.38 y=42.30 z=21.50
+187: R S_front_sup [Destrieux] x=23.68 y=19.65 z=45.70
+188: R S_interm_prim-Jensen [Destrieux] x=48.89 y=-43.95 z=32.32
+189: R S_intrapariet_and_P_trans [Destrieux] x=29.33 y=-56.15 z=43.66
+190: R S_oc_middle_and_Lunatus [Destrieux] x=33.00 y=-82.28 z=6.80
+191: R S_oc_sup_and_transversal [Destrieux] x=27.72 y=-76.49 z=22.48
+192: R S_occipital_ant [Destrieux] x=43.20 y=-65.86 z=3.76
+193: R S_oc-temp_lat [Destrieux] x=43.39 y=-50.04 z=-14.13
+194: R S_oc-temp_med_and_Lingual [Destrieux] x=29.82 y=-47.58 z=-11.16
+195: R S_orbital_lateral [Destrieux] x=42.22 y=41.07 z=-1.70
+196: R S_orbital_med-olfact [Destrieux] x=13.25 y=23.92 z=-17.07
+197: R S_orbital-H_Shaped [Destrieux] x=25.62 y=36.32 z=-13.17
+198: R S_parieto_occipital [Destrieux] x=16.66 y=-66.64 z=25.17
+199: R S_pericallosal [Destrieux] x=5.74 y=-3.23 z=21.04
+200: R S_postcentral [Destrieux] x=36.27 y=-32.88 z=47.19
+201: R S_precentral-inf-part [Destrieux] x=42.71 y=6.28 z=28.84
+202: R S_precentral-sup-part [Destrieux] x=27.00 y=-7.43 z=53.80
+203: R S_suborbital [Destrieux] x=7.43 y=41.50 z=-12.52
+204: R S_subparietal [Destrieux] x=9.48 y=-48.30 z=36.79
+205: R S_temporal_inf [Destrieux] x=52.09 y=-34.16 z=-15.38
+206: R S_temporal_sup [Destrieux] x=49.59 y=-37.75 z=3.83
+207: R S_temporal_transverse [Destrieux] x=52.07 y=-21.54 z=5.86

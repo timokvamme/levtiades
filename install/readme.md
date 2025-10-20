@@ -1,40 +1,40 @@
-# Levtiades Atlas Installation Guide
+# levtiades atlas installation guide
 
-## 🚀 **Quick Start Installation**
+## 🚀 **quick start installation**
 
-Follow these steps to set up the Levtiades Atlas pipeline on a new computer:
+follow these steps to set up the levtiades atlas pipeline on a new computer:
 
-### **Prerequisites**
-- Python 3.8+
-- Git (to clone this repository)
-- Internet connection (for downloading dependencies and atlases)
+### **prerequisites**
+- python 3.8+
+- git (to clone this repository)
+- internet connection (for downloading dependencies and atlases)
 
 ---
 
-## 📋 **Step-by-Step Installation**
+## 📋 **step-by-step installation**
 
-### **1. Install Python Dependencies**
+### **1. install python dependencies**
 ```bash
 # Install required Python packages
 python install/install_python_deps.py
 ```
 
-This will install:
+this will install:
 - nibabel, nilearn, templateflow (neuroimaging)
 - numpy, scipy, pandas (scientific computing)
 - matplotlib, seaborn (visualization)
 
-### **2. Install ANTs (Advanced Neuroimaging Tools)**
+### **2. install ants (advanced neuroimaging tools)**
 ```bash
 # Install ANTs for template registration
 bash install/install_ants.sh
 ```
 
-**For Linux**: Downloads precompiled binaries
-**For macOS**: Uses Homebrew if available
-**For Windows**: Manual installation required (see troubleshooting)
+**for linux**: downloads precompiled binaries
+**for macos**: uses homebrew if available
+**for windows**: manual installation required (see troubleshooting)
 
-### **3. Verify Installation**
+### **3. verify installation**
 ```bash
 # Test that everything is working
 python install/test_installation.py
@@ -42,9 +42,9 @@ python install/test_installation.py
 
 ---
 
-## 🔧 **Troubleshooting**
+## 🔧 **troubleshooting**
 
-### **Python Issues**
+### **python issues**
 ```bash
 # If pip install fails, try upgrading pip first:
 python -m pip install --upgrade pip
@@ -57,24 +57,24 @@ conda install nibabel nilearn numpy scipy pandas matplotlib seaborn
 pip install templateflow
 ```
 
-### **ANTs Issues**
+### **ants issues**
 
-**Linux:**
-- If precompiled binary fails, install build tools:
+**linux:**
+- if precompiled binary fails, install build tools:
   ```bash
   sudo apt-get install cmake gcc g++ git
   # Then compile from source (see ANTs documentation)
   ```
 
-**macOS:**
-- Install Homebrew first: https://brew.sh
-- Then run: `brew install ants`
+**macos:**
+- install homebrew first: https://brew.sh
+- then run: `brew install ants`
 
-**Windows:**
-- Use Windows Subsystem for Linux (WSL2)
-- Or install ANTs manually from: https://github.com/ANTsX/ANTs/releases
+**windows:**
+- use windows subsystem for linux (wsl2)
+- or install ants manually from: https://github.com/antsx/ants/releases
 
-### **TemplateFlow Issues**
+### **templateflow issues**
 ```bash
 # If templateflow fails to download templates:
 export TEMPLATEFLOW_HOME=/path/to/templateflow
@@ -83,9 +83,9 @@ python -c "import templateflow; templateflow.api.get('MNI152NLin2009cAsym', reso
 
 ---
 
-## 🧪 **Testing Your Installation**
+## 🧪 **testing your installation**
 
-After installation, test with a minimal example:
+after installation, test with a minimal example:
 
 ```bash
 # Quick test
@@ -100,55 +100,55 @@ python 1_setup_levtiades_project.py
 
 ---
 
-## 🆘 **Getting Help**
+## 🆘 **getting help**
 
-### **Common Error Messages**
+### **common error messages**
 
-1. **"antsRegistrationSyNQuick.sh: command not found"**
-   - ANTs not installed or not in PATH
-   - Run `bash install/install_ants.sh`
-   - Add ANTs to PATH: `export PATH="/path/to/ants/bin:$PATH"`
+1. **"antsregistrationsynquick.sh: command not found"**
+   - ants not installed or not in path
+   - run `bash install/install_ants.sh`
+   - add ants to path: `export PATH="/path/to/ants/bin:$PATH"`
 
-2. **"No module named 'nibabel'"**
-   - Python dependencies not installed
-   - Run `python install/install_python_deps.py`
+2. **"no module named 'nibabel'"**
+   - python dependencies not installed
+   - run `python install/install_python_deps.py`
 
-3. **"RuntimeError: TemplateFlow failed to get"**
-   - Internet connection issue or TemplateFlow cache problem
-   - Try: `rm -rf ~/.cache/templateflow` and retry
+3. **"runtimeerror: templateflow failed to get"**
+   - internet connection issue or templateflow cache problem
+   - try: `rm -rf ~/.cache/templateflow` and retry
 
-4. **Memory errors during atlas creation**
-   - Ensure 8GB+ RAM available
-   - Close other applications
-   - Consider using swap space
+4. **memory errors during atlas creation**
+   - ensure 8gb+ ram available
+   - close other applications
+   - consider using swap space
 
-### **System Requirements**
+### **system requirements**
 
-**Minimum:**
-- Python 3.8+
-- 8GB RAM
-- 5GB disk space
-- Internet connection
+**minimum:**
+- python 3.8+
+- 8gb ram
+- 5gb disk space
+- internet connection
 
-**Recommended:**
-- Python 3.9+
-- 16GB RAM
-- 10GB disk space
-- Fast internet connection
-
----
-
-## 📚 **Additional Resources**
-
-- **ANTs Documentation**: https://github.com/ANTsX/ANTs
-- **Nilearn Documentation**: https://nilearn.github.io/
-- **TemplateFlow**: https://www.templateflow.org/
+**recommended:**
+- python 3.9+
+- 16gb ram
+- 10gb disk space
+- fast internet connection
 
 ---
 
-## ✅ **Verification Checklist**
+## 📚 **additional resources**
 
-After installation, verify these commands work:
+- **ants documentation**: https://github.com/antsx/ants
+- **nilearn documentation**: https://nilearn.github.io/
+- **templateflow**: https://www.templateflow.org/
+
+---
+
+## ✅ **verification checklist**
+
+after installation, verify these commands work:
 
 - [ ] `python --version` (shows 3.8+)
 - [ ] `python -c "import nibabel; print('nibabel OK')"`
@@ -157,4 +157,4 @@ After installation, verify these commands work:
 - [ ] `antsRegistrationSyNQuick.sh` (shows help message)
 - [ ] `antsApplyTransforms` (shows help message)
 
-If all checkboxes pass, you're ready to run the Levtiades pipeline!
+if all checkboxes pass, you're ready to run the levtiades pipeline!

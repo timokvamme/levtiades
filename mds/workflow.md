@@ -1,59 +1,59 @@
-# Levtiades Atlas Workflow
+# levtiades atlas workflow
 
-## Pipeline Overview
+## pipeline overview
 
-The Levtiades Atlas creation follows a three-step workflow:
+the levtiades atlas creation follows a three-step workflow:
 
 ```
 Step 0: Download Atlases → Step 1: Setup Project → Step 2: Create Atlas
 ```
 
-## Detailed Workflow
+## detailed workflow
 
-### Step 0: Download Source Atlases
-**Location**: `downloaded_atlases/0_downloading_destriux.py`
+### step 0: download source atlases
+**location**: `downloaded_atlases/0_downloading_destriux.py`
 
-**Purpose**: Download and prepare original atlas data
-- Downloads Destrieux cortical atlas instructions
-- Verifies Levinson-Bari atlas components
-- Ensures Tian atlas availability
+**purpose**: download and prepare original atlas data
+- downloads destrieux cortical atlas instructions
+- verifies levinson-bari atlas components
+- ensures tian atlas availability
 
-**Output**: Organized source atlases in `downloaded_atlases/`
+**output**: organized source atlases in `downloaded_atlases/`
 
-### Step 1: Setup Levtiades Project
-**Location**: `levtiades_atlas/1_setup_levtiades_project.py`
+### step 1: setup levtiades project
+**location**: `levtiades_atlas/1_setup_levtiades_project.py`
 
-**Purpose**: Copy atlases and prepare project structure
-- Copies source atlases from `downloaded_atlases/` to `raw_atlases/`
-- Downloads Destrieux atlas via nilearn
-- Creates directory structure for processing
-- Verifies atlas properties and spatial compatibility
+**purpose**: copy atlases and prepare project structure
+- copies source atlases from `downloaded_atlases/` to `raw_atlases/`
+- downloads destrieux atlas via nilearn
+- creates directory structure for processing
+- verifies atlas properties and spatial compatibility
 
-**Key Functions**:
-- `setup_levtiades_project()`: Main setup routine
-- `verify_atlas_properties()`: Spatial compatibility checks
+**key functions**:
+- `setup_levtiades_project()`: main setup routine
+- `verify_atlas_properties()`: spatial compatibility checks
 
-**Output**:
-- `raw_atlases/`: Local copies of source atlases
-- Project directory structure
-- `atlas_info.txt`: Comprehensive project documentation
+**output**:
+- `raw_atlases/`: local copies of source atlases
+- project directory structure
+- `atlas_info.txt`: comprehensive project documentation
 
-### Step 2: Create Levtiades Atlas
-**Location**: `levtiades_atlas/2_levtiades_to_mni2009c.py`
+### step 2: create levtiades atlas
+**location**: `levtiades_atlas/2_levtiades_to_mni2009c.py`
 
-**Purpose**: Create final combined atlas in MNI2009c space
-- Template-to-template registration using ANTs
-- Hierarchical atlas combination (Levinson > Tian > Destrieux)
-- Generate multiple output formats
-- Create labels, lookup tables, and QC files
+**purpose**: create final combined atlas in mni2009c space
+- template-to-template registration using ants
+- hierarchical atlas combination (levinson > tian > destrieux)
+- generate multiple output formats
+- create labels, lookup tables, and qc files
 
-**Key Functions**:
-- `load_and_combine_levinson()`: Combine brainstem components
-- `align_all_to_target()`: Register all atlases to target space
-- `create_hierarchical()`: Combine with priority hierarchy
-- `create_label_files()`: Generate region labels and colors
+**key functions**:
+- `load_and_combine_levinson()`: combine brainstem components
+- `align_all_to_target()`: register all atlases to target space
+- `create_hierarchical()`: combine with priority hierarchy
+- `create_label_files()`: generate region labels and colors
 
-**Configuration**: All parameters embedded as defaults:
+**configuration**: all parameters embedded as defaults:
 ```python
 DEFAULT_CONFIG = {
     "target_space": "MNI152NLin2009cAsym",
@@ -63,26 +63,26 @@ DEFAULT_CONFIG = {
 }
 ```
 
-## Processing Details
+## processing details
 
-### Registration Strategy
-- **Levinson**: MNI152NLin2009bAsym → MNI152NLin2009cAsym
-- **Tian**: MNI152NLin6Asym → MNI152NLin2009cAsym
-- **Destrieux**: MNI152NLin2009aAsym → MNI152NLin2009cAsym
+### registration strategy
+- **levinson**: mni152nlin2009basym → mni152nlin2009casym
+- **tian**: mni152nlin6asym → mni152nlin2009casym
+- **destrieux**: mni152nlin2009aasym → mni152nlin2009casym
 
-All using ANTs `antsRegistrationSyNQuick.sh` for robust template-to-template transforms.
+all using ants `antsRegistrationSyNQuick.sh` for robust template-to-template transforms.
 
-### Hierarchical Combination
-1. **Layer 3**: Destrieux cortical (base layer)
-2. **Layer 2**: Tian subcortical (overwrites cortical where present)
-3. **Layer 1**: Levinson brainstem (highest priority)
+### hierarchical combination
+1. **layer 3**: destrieux cortical (base layer)
+2. **layer 2**: tian subcortical (overwrites cortical where present)
+3. **layer 1**: levinson brainstem (highest priority)
 
-### Label Indexing
-- **Levinson**: 1-5 (original indices)
-- **Tian**: 101-154 (original + 100 offset)
-- **Destrieux**: 201-348 (original + 200 offset)
+### label indexing
+- **levinson**: 1-5 (original indices)
+- **tian**: 101-154 (original + 100 offset)
+- **destrieux**: 201-348 (original + 200 offset)
 
-## Output Structure
+## output structure
 
 ```
 levtiades_atlas/
@@ -102,26 +102,26 @@ levtiades_atlas/
 └── work/                                     # Intermediate files
 ```
 
-## Quality Control
+## quality control
 
-The pipeline includes automatic QC:
-- Overlap analysis between source atlases
-- Individual atlas masks for verification
-- Processing statistics and region counts
-- Spatial alignment verification
+the pipeline includes automatic qc:
+- overlap analysis between source atlases
+- individual atlas masks for verification
+- processing statistics and region counts
+- spatial alignment verification
 
-## Error Handling
+## error handling
 
-Common issues and solutions:
-- **ANTs not found**: Ensure ANTs tools are on PATH
-- **Template download fails**: Check internet connection and templateflow cache
-- **Atlas files missing**: Verify downloaded_atlases structure
-- **Memory issues**: Large atlases may require sufficient RAM (8GB+ recommended)
+common issues and solutions:
+- **ants not found**: ensure ants tools are on path
+- **template download fails**: check internet connection and templateflow cache
+- **atlas files missing**: verify downloaded_atlases structure
+- **memory issues**: large atlases may require sufficient ram (8gb+ recommended)
 
-## Runtime Expectations
+## runtime expectations
 
-Typical processing times:
-- **Step 1**: 1-2 minutes (download and setup)
-- **Step 2**: 10-30 minutes (depending on ANTs registration)
+typical processing times:
+- **step 1**: 1-2 minutes (download and setup)
+- **step 2**: 10-30 minutes (depending on ants registration)
 
-Total: ~15-35 minutes for complete atlas creation.
+total: ~15-35 minutes for complete atlas creation.

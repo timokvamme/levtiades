@@ -1,0 +1,70 @@
+# region takeover analysis: original → hierarchical
+# comparing TRUE original sizes (from individual aligned atlases) vs hierarchical version
+# hierarchy: levinson > tian > destrieux
+# 
+# original voxels = region's true size from individual aligned atlas
+# final voxels = region's size after hierarchical priority enforcement
+
+total regions analyzed: 207
+regions that lost voxels: 6
+regions unchanged: 201
+note: no regions gained voxels (higher priority regions can only lose to even higher priority)
+
+====================================================================================================
+regions that LOST VOXELS (taken over by higher priority regions)
+====================================================================================================
+
+label 156: R G_oc-temp_med-Parahip [Destrieux]
+  original voxels: 1021
+  final voxels: 862
+  voxels lost: 159 (-15.57%)
+  taken over by: label 26: lAMY-rh [Tian]
+  original centroid (mni): x=24.39 y=-15.81 z=-25.88
+  final centroid (mni): x=24.58 y=-16.60 z=-26.66
+  centroid shift: 1.13 mm
+
+label 82: L G_oc-temp_med-Parahip [Destrieux]
+  original voxels: 1021
+  final voxels: 868
+  voxels lost: 153 (-14.99%)
+  taken over by: label 53: lAMY-lh [Tian]
+  original centroid (mni): x=-23.31 y=-18.34 z=-25.04
+  final centroid (mni): x=-23.35 y=-19.58 z=-25.52
+  centroid shift: 1.33 mm
+
+label 91: L G_subcallosal [Destrieux]
+  original voxels: 82
+  final voxels: 71
+  voxels lost: 11 (-13.41%)
+  taken over by: label 56: NAc-shell-lh [Tian]
+  original centroid (mni): x=-4.62 y=15.33 z=-9.57
+  final centroid (mni): x=-4.39 y=16.01 z=-9.80
+  centroid shift: 0.75 mm
+
+label 94: L G_temp_sup-Plan_polar [Destrieux]
+  original voxels: 325
+  final voxels: 317
+  voxels lost: 8 (-2.46%)
+  taken over by: label 53: lAMY-lh [Tian]
+  original centroid (mni): x=-40.97 y=4.62 z=-20.09
+  final centroid (mni): x=-41.24 y=4.74 z=-20.06
+  centroid shift: 0.29 mm
+
+label 168: R G_temp_sup-Plan_polar [Destrieux]
+  original voxels: 305
+  final voxels: 303
+  voxels lost: 2 (-0.66%)
+  taken over by: label 26: lAMY-rh [Tian]
+  original centroid (mni): x=42.49 y=5.53 z=-18.66
+  final centroid (mni): x=42.58 y=5.55 z=-18.65
+  centroid shift: 0.09 mm
+
+label 143: R G_cingul-Post-ventral [Destrieux]
+  original voxels: 204
+  final voxels: 203
+  voxels lost: 1 (-0.49%)
+  taken over by: label 12: HIP-tail-rh [Tian]
+  original centroid (mni): x=7.66 y=-49.57 z=7.15
+  final centroid (mni): x=7.63 y=-49.61 z=7.17
+  centroid shift: 0.06 mm
+

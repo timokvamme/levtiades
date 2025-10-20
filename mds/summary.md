@@ -1,10 +1,10 @@
-# Repository Reorganization Summary
+# repository reorganization summary
 
-## ✅ Completed Restructuring
+## ✅ completed restructuring
 
-The Levtiades repository has been successfully streamlined from a complex development history into a clean, production-ready workflow.
+the levtiades repository has been successfully streamlined from a complex development history into a clean, production-ready workflow.
 
-## 📁 New Repository Structure
+## 📁 new repository structure
 
 ```
 levtiades/
@@ -33,21 +33,21 @@ levtiades/
 └── docs/                       # Original docs folder (preserved)
 ```
 
-## 🔄 Streamlined Workflow
+## 🔄 streamlined workflow
 
-### Before (Complex)
+### before (complex)
 - 20+ development scripts scattered across directories
-- Multiple intermediate steps with manual parameter specification
-- Inconsistent file organization
-- Complex documentation spread throughout
+- multiple intermediate steps with manual parameter specification
+- inconsistent file organization
+- complex documentation spread throughout
 
-### After (Streamlined)
+### after (streamlined)
 - **3 numbered scripts** in clear sequence: `0_`, `1_`, `2_`
-- **Embedded parameters** - no manual configuration needed
-- **Clean separation** of source data, processing, and outputs
-- **Centralized documentation** in `mds/`
+- **embedded parameters** - no manual configuration needed
+- **clean separation** of source data, processing, and outputs
+- **centralized documentation** in `mds/`
 
-## 🚀 Usage (Now Simple)
+## 🚀 usage (now simple)
 
 ```bash
 # Step 0: Download atlases
@@ -62,54 +62,54 @@ python 1_setup_levtiades_project.py
 python 2_levtiades_to_mni2009c.py
 ```
 
-## 🧹 Cleanup Performed
+## 🧹 cleanup performed
 
-### Removed/Archived
-- ❌ All `.json` files (reindexing maps, hemisphere mappings)
-- ❌ 15+ development Python scripts moved to `legacy_scripts/`
-- ❌ Scattered `.md` files consolidated into `mds/`
-- ❌ Duplicate and intermediate processing scripts
+### removed/archived
+- ❌ all `.json` files (reindexing maps, hemisphere mappings)
+- ❌ 15+ development python scripts moved to `legacy_scripts/`
+- ❌ scattered `.md` files consolidated into `mds/`
+- ❌ duplicate and intermediate processing scripts
 
-### Preserved
-- ✅ All original atlas data in `downloaded_atlases/`
-- ✅ Complete processing outputs in existing subdirectories
-- ✅ All documentation archived in `mds/old/`
-- ✅ TianDes predecessor project (reference)
+### preserved
+- ✅ all original atlas data in `downloaded_atlases/`
+- ✅ complete processing outputs in existing subdirectories
+- ✅ all documentation archived in `mds/old/`
+- ✅ tiandes predecessor project (reference)
 
-## 🎯 Key Improvements
+## 🎯 key improvements
 
-1. **Clear Linear Flow**: 0 → 1 → 2 script sequence
-2. **Self-Contained**: All parameters embedded, no external config
-3. **Robust**: Uses proper ANTs template-to-template registration
-4. **Documented**: Complete workflow and usage documentation
-5. **Clean**: Legacy complexity archived but preserved
+1. **clear linear flow**: 0 → 1 → 2 script sequence
+2. **self-contained**: all parameters embedded, no external config
+3. **robust**: uses proper ants template-to-template registration
+4. **documented**: complete workflow and usage documentation
+5. **clean**: legacy complexity archived but preserved
 
-## 📊 Script Details
+## 📊 script details
 
 ### 0_downloading_destriux.py
-- Creates download instructions for Destrieux atlas
-- Provides guidance for obtaining required atlas files
-- Sets up initial directory structure
+- creates download instructions for destrieux atlas
+- provides guidance for obtaining required atlas files
+- sets up initial directory structure
 
 ### 1_setup_levtiades_project.py
-- Copies atlases from `downloaded_atlases/` to working directory
-- Downloads Destrieux via nilearn
-- Verifies atlas properties and spatial compatibility
-- Creates full project directory structure
+- copies atlases from `downloaded_atlases/` to working directory
+- downloads destrieux via nilearn
+- verifies atlas properties and spatial compatibility
+- creates full project directory structure
 
 ### 2_levtiades_to_mni2009c.py
-- **Embedded defaults** for all parameters (no manual config needed)
-- Template-to-template registration via ANTs
-- Hierarchical atlas combination with overlap resolution
-- Generates all output formats, labels, and QC files
+- **embedded defaults** for all parameters (no manual config needed)
+- template-to-template registration via ants
+- hierarchical atlas combination with overlap resolution
+- generates all output formats, labels, and qc files
 
-## 🏆 Production Ready
+## 🏆 production ready
 
-The repository now provides:
-- **One-command execution** for each step
-- **Complete automation** with sensible defaults
-- **Professional documentation** for users and developers
-- **Preserved history** for reference and development
-- **Clean architecture** for maintenance and extension
+the repository now provides:
+- **one-command execution** for each step
+- **complete automation** with sensible defaults
+- **professional documentation** for users and developers
+- **preserved history** for reference and development
+- **clean architecture** for maintenance and extension
 
-This represents the distillation of extensive development work into a production-ready, user-friendly pipeline for creating the Levtiades Atlas.
+this represents the distillation of extensive development work into a production-ready, user-friendly pipeline for creating the levtiades atlas.

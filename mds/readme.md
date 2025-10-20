@@ -1,41 +1,41 @@
-# Levtiades Atlas Project
+# levtiades atlas project
 
-**A comprehensive brain atlas combining psychiatric circuit-critical brainstem nuclei with detailed subcortical and cortical parcellations.**
+**a comprehensive brain atlas combining psychiatric circuit-critical brainstem nuclei with detailed subcortical and cortical parcellations.**
 
-## Overview
+## overview
 
-The Levtiades Atlas is a 207-region brain parcellation designed specifically for psychiatric circuit analysis and neuroscience research. It combines three complementary atlases:
+the levtiades atlas is a 207-region brain parcellation designed specifically for psychiatric circuit analysis and neuroscience research. it combines three complementary atlases:
 
-- **5 Brainstem Nuclei** (Levinson-Bari): Critical psychiatric circuit nodes
-- **54 Subcortical Regions** (Tian Melbourne S4): Fine-grained limbic structures
-- **148 Cortical Areas** (Destrieux): Complete sulco-gyral parcellation
+- **5 brainstem nuclei** (levinson-bari): critical psychiatric circuit nodes
+- **54 subcortical regions** (tian melbourne s4): fine-grained limbic structures
+- **148 cortical areas** (destrieux): complete sulco-gyral parcellation
 
-## Quick Start
+## quick start
 
-### Prerequisites
-- Python 3.8+ with nibabel, nilearn, numpy, pandas, templateflow, scipy
-- ANTs registration tools (`antsRegistrationSyNQuick.sh`, `antsApplyTransforms`)
+### prerequisites
+- python 3.8+ with nibabel, nilearn, numpy, pandas, templateflow, scipy
+- ants registration tools (`antsRegistrationSyNQuick.sh`, `antsApplyTransforms`)
 
-### Running the Pipeline
+### running the pipeline
 
-1. **Download atlases**:
+1. **download atlases**:
    ```bash
    cd downloaded_atlases
    python 0_downloading_destriux.py
    ```
 
-2. **Setup project** (copies atlases from downloaded_atlases/):
+2. **setup project** (copies atlases from downloaded_atlases/):
    ```bash
    cd levtiades_atlas
    python 1_setup_levtiades_project.py
    ```
 
-3. **Create final atlas**:
+3. **create final atlas**:
    ```bash
    python 2_levtiades_to_mni2009c.py
    ```
 
-## Repository Structure
+## repository structure
 
 ```
 levtiades/
@@ -57,58 +57,60 @@ levtiades/
 └── legacy_scripts/             # Historical development scripts
 ```
 
-## Atlas Components
+## atlas components
 
-### Levinson-Bari Brainstem Atlas (Regions 1-5)
-Critical psychiatric circuit nodes:
-- **LC (1)**: Locus Coeruleus (noradrenergic system)
-- **NTS (2)**: Nucleus Tractus Solitarius (autonomic integration)
-- **VTA (3)**: Ventral Tegmental Area (dopaminergic reward)
-- **PAG (4)**: Periaqueductal Gray (pain/defense)
-- **DRN (5)**: Dorsal Raphe Nucleus (serotonergic mood)
+### levinson-bari brainstem atlas (regions 1-5)
+critical psychiatric circuit nodes:
+- **lc (1)**: locus coeruleus (noradrenergic system)
+- **nts (2)**: nucleus tractus solitarius (autonomic integration)
+- **vta (3)**: ventral tegmental area (dopaminergic reward)
+- **pag (4)**: periaqueductal gray (pain/defense)
+- **drn (5)**: dorsal raphe nucleus (serotonergic mood)
 
-### Tian Subcortical Atlas S4 (Regions 101-154)
+### tian subcortical atlas s4 (regions 6-59)
 54 fine-grained subcortical structures including detailed parcellations of:
-- Striatum, Thalamus, Hippocampus, Amygdala, Globus Pallidus
+- striatum, thalamus, hippocampus, amygdala, globus pallidus
 
-### Destrieux Cortical Atlas (Regions 201-348)
+### destrieux cortical atlas (regions 60-207)
 148 sulco-gyral cortical regions providing complete cortical coverage.
+- **note**: medial wall regions (original labels 42, 117) excluded before processing
+- see `levtiades_atlas/medial_wall_removal_documentation.md` for details
 
-## Target Applications
+## target applications
 
-### Psychiatric Circuit Analysis
-- **Depression**: LC-DRN-VTA connectivity mapping
-- **Anxiety**: PAG-amygdala-prefrontal circuits
-- **PTSD**: Brainstem arousal system analysis
-- **Addiction**: VTA-striatal reward pathways
+### psychiatric circuit analysis
+- **depression**: lc-drn-vta connectivity mapping
+- **anxiety**: pag-amygdala-prefrontal circuits
+- **ptsd**: brainstem arousal system analysis
+- **addiction**: vta-striatal reward pathways
 
-### Technical Specifications
-- **Target Space**: MNI152NLin2009cAsym
-- **Resolution**: 2×2×2mm isotropic
-- **Registration**: ANTs template-to-template (not simple resampling)
-- **Hierarchy**: Brainstem > Subcortical > Cortical priority
-- **Total Regions**: 207 (5 + 54 + 148)
+### technical specifications
+- **target space**: mni152nlin2009casym
+- **resolution**: 2×2×2mm isotropic
+- **registration**: ants template-to-template (not simple resampling)
+- **hierarchy**: brainstem > subcortical > cortical priority
+- **total regions**: 207 (5 + 54 + 148)
 
-## Output Files
+## output files
 
-After running the pipeline, key outputs include:
+after running the pipeline, key outputs include:
 
-- `final/no_overlaps/levtiades_hierarchical.nii.gz` - Main atlas file
-- `final/levtiades_labels.txt` - Region names and source attribution
-- `final/levtiades_lookup_table.txt` - MRIcroGL color table
-- `reports/levtiades_analysis_report.md` - Processing summary
-- `qc/` - Quality control overlays and masks
+- `final/no_overlaps/levtiades_hierarchical.nii.gz` - main atlas file
+- `final/levtiades_labels.txt` - region names and source attribution
+- `final/levtiades_lookup_table.txt` - mricrogl color table
+- `reports/levtiades_analysis_report.md` - processing summary
+- `qc/` - quality control overlays and masks
 
-## Citation
+## citation
 
-When using the Levtiades Atlas, please cite all source atlases:
+when using the levtiades atlas, please cite all source atlases:
 
-1. **Levinson, A.J., et al. (2022)**. Limbic Brainstem Atlas for Depression Research
-2. **Tian, Y., et al. (2020)**. Melbourne Subcortical Atlas. *Nature Neuroscience*, 23(11), 1421-1432.
-3. **Destrieux, C., et al. (2010)**. Cortical Parcellation. *NeuroImage*, 53(1), 1-15.
+1. **levinson, a.j., et al. (2022)**. limbic brainstem atlas for depression research
+2. **tian, y., et al. (2020)**. melbourne subcortical atlas. *nature neuroscience*, 23(11), 1421-1432.
+3. **destrieux, c., et al. (2010)**. cortical parcellation. *neuroimage*, 53(1), 1-15.
 
-## Development Notes
+## development notes
 
-This repository has been streamlined from a complex development history. Original documentation and development scripts are preserved in `mds/old/` and `legacy_scripts/` respectively.
+this repository has been streamlined from a complex development history. original documentation and development scripts are preserved in `mds/old/` and `legacy_scripts/` respectively.
 
-The current pipeline represents the production-ready workflow distilled from extensive validation and iteration documented in the archived materials.
+the current pipeline represents the production-ready workflow distilled from extensive validation and iteration documented in the archived materials.

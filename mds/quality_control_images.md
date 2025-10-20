@@ -1,91 +1,91 @@
-# Quality Control Images - Levtiades Atlas
+# quality control images - levtiades atlas
 
-## Overview
+## overview
 
-The Levtiades Atlas pipeline generates multiple quality control (QC) images to validate registration accuracy and atlas combination. All QC images are stored in the `qc_validation/` folder.
+the levtiades atlas pipeline generates multiple quality control (qc) images to validate registration accuracy and atlas combination. all qc images are stored in the `qc_validation/` folder.
 
-## QC Images from Step 2 (Atlas Creation)
+## qc images from step 2 (atlas creation)
 
-The Step 2 script (`2_levtiades_to_mni2009c.py`) generates basic QC overlays:
+the step 2 script (`2_levtiades_to_mni2009c.py`) generates basic qc overlays:
 
-### Basic Overlap Visualization
-- **File**: `qc_validation/overlap_visualization.nii.gz`
-- **Purpose**: Shows spatial overlaps between component atlases
-- **Values**:
-  - 0 = No atlas coverage
-  - 1 = Levinson-Tian overlap
-  - 2 = Levinson-Destrieux overlap
-  - 3 = Tian-Destrieux overlap
-  - 4 = All three atlases overlap
+### basic overlap visualization
+- **file**: `qc_validation/overlap_visualization.nii.gz`
+- **purpose**: shows spatial overlaps between component atlases
+- **values**:
+  - 0 = no atlas coverage
+  - 1 = levinson-tian overlap
+  - 2 = levinson-destrieux overlap
+  - 3 = tian-destrieux overlap
+  - 4 = all three atlases overlap
 
-### Individual Atlas Masks
-- **levinson_mask.nii.gz** (value=100): Brainstem nuclei coverage
-- **tian_mask.nii.gz** (value=150): Subcortical structure coverage
-- **destrieux_mask.nii.gz** (value=200): Cortical area coverage
+### individual atlas masks
+- **levinson_mask.nii.gz** (value=100): brainstem nuclei coverage
+- **tian_mask.nii.gz** (value=150): subcortical structure coverage
+- **destrieux_mask.nii.gz** (value=200): cortical area coverage
 
-## QC Images from Step 3 (Enhanced Validation)
+## qc images from step 3 (enhanced validation)
 
-The Step 3 script (`3_enhanced_qc_validation.py`) generates comprehensive validation:
+the step 3 script (`3_enhanced_qc_validation.py`) generates comprehensive validation:
 
-### Registration Quality Control
-- **Location**: `qc_validation/registration_qc/`
-- **Files**: PNG images showing template-to-template alignment quality
-- **Purpose**: Visual inspection of anatomical registration accuracy
+### registration quality control
+- **location**: `qc_validation/registration_qc/`
+- **files**: png images showing template-to-template alignment quality
+- **purpose**: visual inspection of anatomical registration accuracy
 
-### Overlap Analysis
-- **Location**: `qc_validation/qc_overlays/`
-- **Files**: Detailed overlap visualizations and statistics
-- **Purpose**: Quantitative analysis of atlas boundary interactions
+### overlap analysis
+- **location**: `qc_validation/qc_overlays/`
+- **files**: detailed overlap visualizations and statistics
+- **purpose**: quantitative analysis of atlas boundary interactions
 
-### Centroid Validation
-- **Location**: `qc_validation/centroid_validation/`
-- **Files**: Analysis of region centroid displacement during processing
-- **Purpose**: Measure registration accuracy (<2mm acceptable)
+### centroid validation
+- **location**: `qc_validation/centroid_validation/`
+- **files**: analysis of region centroid displacement during processing
+- **purpose**: measure registration accuracy (<2mm acceptable)
 
-## Expert Review Process
+## expert review process
 
-### Visual Inspection Checklist
-1. **Registration Quality**: Check anatomical plausibility in registration_qc images
-2. **Overlap Patterns**: Verify expected boundary overlaps in qc_overlays
-3. **Centroid Accuracy**: Confirm <95% of regions show <2mm displacement
-4. **Template Alignment**: Verify proper MNI2009c space alignment
-5. **Hierarchical Priority**: Ensure brainstem nuclei take precedence
+### visual inspection checklist
+1. **registration quality**: check anatomical plausibility in registration_qc images
+2. **overlap patterns**: verify expected boundary overlaps in qc_overlays
+3. **centroid accuracy**: confirm <95% of regions show <2mm displacement
+4. **template alignment**: verify proper mni2009c space alignment
+5. **hierarchical priority**: ensure brainstem nuclei take precedence
 
-### Quality Thresholds
-- **Registration**: Smooth, anatomically plausible transformations
-- **Centroid displacement**: <2mm acceptable, <1mm excellent
-- **Overlap areas**: Minimal overlaps at anatomical boundaries only
-- **Coverage**: Complete brain coverage without gaps
+### quality thresholds
+- **registration**: smooth, anatomically plausible transformations
+- **centroid displacement**: <2mm acceptable, <1mm excellent
+- **overlap areas**: minimal overlaps at anatomical boundaries only
+- **coverage**: complete brain coverage without gaps
 
-## Technical Implementation
+## technical implementation
 
-### Step 2 QC Function
+### step 2 qc function
 ```python
 def create_qc_overlays(lev_path, tian_path, des_path, out_dir, ref_tpl):
     # Creates basic overlap visualization and individual masks
     # Outputs to qc_validation/ folder
 ```
 
-### Output Format
-- **File format**: NIfTI (.nii.gz) for 3D visualization
-- **Coordinate system**: MNI152NLin2009cAsym (2mm isotropic)
-- **Visualization**: Compatible with FSLView, MRIcroGL, and other neuroimaging viewers
+### output format
+- **file format**: nifti (.nii.gz) for 3d visualization
+- **coordinate system**: mni152nlin2009casym (2mm isotropic)
+- **visualization**: compatible with fslview, mricrogl, and other neuroimaging viewers
 
-### Quality Assurance
-- All QC images use same spatial template as final atlas
-- Consistent coordinate system across all outputs
-- Integer values for clear region identification
-- Expert-reviewable format for validation workflow
+### quality assurance
+- all qc images use same spatial template as final atlas
+- consistent coordinate system across all outputs
+- integer values for clear region identification
+- expert-reviewable format for validation workflow
 
-## Usage in Validation Workflow
+## usage in validation workflow
 
-1. **Automated Generation**: QC images created automatically during Steps 2 and 3
-2. **Expert Review**: Manual inspection using neuroimaging software
-3. **Issue Detection**: Identify registration or combination problems
-4. **Iteration**: Re-run processing with adjusted parameters if needed
-5. **Final Approval**: Expert sign-off on atlas quality before use
+1. **automated generation**: qc images created automatically during steps 2 and 3
+2. **expert review**: manual inspection using neuroimaging software
+3. **issue detection**: identify registration or combination problems
+4. **iteration**: re-run processing with adjusted parameters if needed
+5. **final approval**: expert sign-off on atlas quality before use
 
-## File Organization
+## file organization
 
 ```
 qc_validation/
