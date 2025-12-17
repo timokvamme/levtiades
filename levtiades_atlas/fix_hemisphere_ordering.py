@@ -18,7 +18,7 @@ def create_hemisphere_reordering_map():
     print("📊 Creating Hemisphere Reordering Map...")
     
     # Load the current sequential atlas
-    atlas_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    atlas_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     
@@ -134,7 +134,7 @@ def apply_hemisphere_reordering(reorder_map, atlas_img, atlas_data):
         return None
     
     # Save reordered atlas (overwrite sequential and hierarchical)
-    output_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    output_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     new_img = nib.Nifti1Image(new_atlas_data, atlas_img.affine, atlas_img.header)
     nib.save(new_img, output_path)
     
@@ -200,7 +200,7 @@ def create_hemisphere_ordered_csvs(reorder_map):
     
     # Extract centroids for coordinates CSV
     print("\n📍 Extracting Centroids...")
-    atlas_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    atlas_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     affine = atlas_img.affine

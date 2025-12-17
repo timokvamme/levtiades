@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dcb6ea7-f203-4208-a62f-105a3acd1f03" name="Changes" comment="First Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/levtiades.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/levtiades.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +32,12 @@
     &quot;assignee&quot;: &quot;timokvamme&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/timokvamme/levtiades.git&quot;,
-    &quot;accountId&quot;: &quot;22d0b9e6-7773-423c-8d3e-d84413848268&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/timokvamme/levtiades.git",
+    "accountId": "596d7fa1-e525-4b4d-99cd-82205810b8e4"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -99,6 +97,7 @@
       <workItem from="1757910563404" duration="6872000" />
       <workItem from="1758525133483" duration="453000" />
       <workItem from="1758525667799" duration="210000" />
+      <workItem from="1758527898129" duration="7153000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />

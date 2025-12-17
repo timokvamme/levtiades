@@ -227,7 +227,7 @@ def validate_centroids_across_atlases():
     reindex_map = {int(k): v for k, v in reindex_map.items()}
     
     # Load sequential atlas centroids
-    seq_atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    seq_atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
     seq_centroids = extract_region_centroids(seq_atlas_path)
     
     # Load original aligned atlases
@@ -422,7 +422,7 @@ if __name__ == "__main__":
     rename_atlas_files()
     
     # Step 3: Extract centroids from sequential atlas
-    seq_atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    seq_atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
     centroids = extract_region_centroids(seq_atlas_path)
     
     # Step 4: Create CSV files

@@ -117,7 +117,7 @@ def create_hemisphere_ordered_atlas(reindex_map, atlas_img, atlas_data):
         return None
     
     # Save reindexed atlas (overwrite sequential)
-    output_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    output_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     new_img = nib.Nifti1Image(new_atlas_data, atlas_img.affine, atlas_img.header)
     nib.save(new_img, output_path)
     
@@ -367,7 +367,7 @@ def validate_all_centroids():
     reindex_map = {int(k): v for k, v in reindex_map.items()}
     
     # Load sequential atlas centroids
-    seq_atlas_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    seq_atlas_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     print(f"\n📍 Extracting centroids from {seq_atlas_path.name}...")
     
     seq_img = nib.load(seq_atlas_path)

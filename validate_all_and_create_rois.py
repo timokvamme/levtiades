@@ -38,7 +38,7 @@ def validate_all_centroids():
     original_mapping = pd.read_csv("levtiades_atlas/index_mapping_reference.csv")
     
     # Load current hemisphere-ordered atlas
-    seq_atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    seq_atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
     seq_img = nib.load(seq_atlas_path)
     seq_data = seq_img.get_fdata().astype(int)
     seq_affine = seq_img.affine
@@ -250,7 +250,7 @@ def create_hemisphere_individual_rois():
     print("\n🎯 Creating Individual ROI Files with Hemisphere Ordering...")
     
     # Load the hemisphere-ordered atlas
-    atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     

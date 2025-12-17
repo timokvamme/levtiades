@@ -21,7 +21,7 @@ Create the first comprehensive brain atlas combining high-resolution brainstem n
 **Complete 207-region brain parcellation with corrected hemisphere ordering**
 
 #### **Atlas Files:**
-- `levtiades_sequential.nii.gz` - Main production atlas (1-207 sequential)
+- `levtiades_final.nii.gz` - Main production atlas (1-207 sequential)
 - `levtiades_spaced_mricrogl.nii.gz` - MRIcroGL visualization (300, 350, 400...)
 - `levtiades_multichannel.nii.gz` - 4D multichannel with overlaps
 - `levtiades_flat_with_overlaps.nii.gz` - Hierarchical overlap resolution
@@ -240,7 +240,7 @@ levtiades/
 ├── levtiades_atlas/
 │   ├── final_atlas/
 │   │   ├── no_overlaps/
-│   │   │   ├── levtiades_sequential.nii.gz           # MAIN ATLAS
+│   │   │   ├── levtiades_final.nii.gz           # MAIN ATLAS
 │   │   │   └── levtiades_spaced_mricrogl.nii.gz      # MRIcroGL version
 │   │   ├── with_overlaps/
 │   │   │   ├── levtiades_multichannel.nii.gz         # 4D multichannel
@@ -287,7 +287,7 @@ levtiades/
 ```python
 # Load atlas
 import nibabel as nib
-atlas = nib.load('levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz')
+atlas = nib.load('levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz')
 
 # Load coordinates
 import pandas as pd

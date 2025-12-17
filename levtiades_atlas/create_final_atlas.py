@@ -21,7 +21,7 @@ def create_final_atlas():
     print("")
     
     # Load current atlas and create hemisphere-ordered version
-    atlas_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    atlas_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     
@@ -106,9 +106,9 @@ def validate_all_centroids(hemisphere_map):
     
     print("\n🔍 VALIDATING ALL REGION CENTROIDS")
     print("=" * 40)
-    
+
     # Load atlas
-    atlas_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    atlas_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     affine = atlas_img.affine
@@ -288,9 +288,9 @@ def update_all_files(hemisphere_map):
     """Update all label files and CSVs (overwrite existing)"""
     
     print("\n📋 UPDATING ALL FILES...")
-    
+
     # Load atlas for coordinates
-    atlas_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    atlas_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     affine = atlas_img.affine
@@ -414,8 +414,8 @@ def create_individual_rois():
     """Create individual ROI files (overwrite existing)"""
     
     print("\n🎯 Creating Individual ROI Files...")
-    
-    atlas_path = Path("final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+
+    atlas_path = Path("final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     

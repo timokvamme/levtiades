@@ -88,7 +88,7 @@ def create_reindexed_atlas(reindex_map, atlas_img, atlas_data):
         return None
     
     # Save reindexed atlas
-    output_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    output_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
     new_img = nib.Nifti1Image(new_atlas_data, atlas_img.affine, atlas_img.header)
     nib.save(new_img, output_path)
     
@@ -354,7 +354,7 @@ if __name__ == "__main__":
     
     print("\n✅ SEQUENTIAL REINDEXING COMPLETE!")
     print("=" * 35)
-    print("📊 New atlas: levtiades_sequential.nii.gz")
+    print("📊 New atlas: levtiades_final.nii.gz")
     print("📋 New labels: levtiades_labels_sequential.txt")
     print("🎨 New lookup: levtiades_lookup_table_sequential.txt")
     print("🎯 New ROIs: individual_rois_sequential/")

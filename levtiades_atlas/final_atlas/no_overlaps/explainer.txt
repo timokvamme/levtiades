@@ -1,0 +1,62 @@
+================================================================================
+                    LEVTIADES ATLAS - NO_OVERLAPS DIRECTORY
+================================================================================
+
+This directory contains the production-ready Levtiades Atlas files with
+hierarchically resolved overlaps between source atlases.
+
+FILES IN THIS DIRECTORY
+-----------------------
+1. levtiades_final.nii.gz  [PRIMARY - USE THIS ONE]
+   - Sequential indexing: 1-207 (regions numbered 1 through 207)
+   - Hemisphere ordering: LEFT before RIGHT for all subcortical/cortical regions
+   - Structure: Levinson (1-5) -> Tian-L (6-32) -> Tian-R (33-59) -> Destrieux-L (60-133) -> Destrieux-R (134-207)
+   - Recommended for: All neuroimaging analyses, ROI extraction, connectivity studies
+
+2. levtiades_spaced_mricrogl.nii.gz  [VISUALIZATION ONLY]
+   - Spaced indexing: 300, 350, 400, 450... (50-step increments)
+   - Same anatomical content as levtiades_final.nii.gz
+   - Purpose: Better color separation in MRIcroGL visualization
+   - NOT recommended for analysis - use levtiades_final.nii.gz instead
+
+WHY levtiades_final.nii.gz IS THE CORRECT CHOICE
+------------------------------------------------
+1. SEQUENTIAL INDEXING: Regions 1-207 are intuitive for analysis pipelines
+2. HEMISPHERE ORDERING: Left hemisphere regions come before right hemisphere,
+   matching standard neuroimaging conventions
+3. NO OVERLAP CONFLICTS: Hierarchical resolution ensures each voxel belongs to
+   exactly one region (Brainstem > Subcortical > Cortical priority)
+4. VALIDATED: All 207 regions have been centroid-validated against original
+   source atlases (Levinson-Bari, Tian Melbourne, Destrieux)
+
+ATLAS COMPOSITION
+-----------------
+- Levinson-Bari Limbic Brainstem: 5 regions (LC, NTS, VTA, PAG, DRN)
+- Tian Melbourne Subcortical Scale IV: 54 regions (HIP, THA, PUT, CAU, AMY, NAc, GP)
+- Destrieux Cortical Parcellation: 148 regions (sulco-gyral parcellation)
+
+OVERLAP RESOLUTION HIERARCHY
+----------------------------
+When source atlases overlap in the same voxel:
+  HIGHEST PRIORITY: Levinson (brainstem) - always preserved
+  MEDIUM PRIORITY:  Tian (subcortical) - preserved over cortical
+  LOWEST PRIORITY:  Destrieux (cortical) - yields to subcortical/brainstem
+
+This ensures anatomically critical deep brain structures are never obscured
+by cortical regions.
+
+FOR MORE INFORMATION
+--------------------
+See the comprehensive project report:
+  LEVTIADES_PROJECT_FINAL_REPORT.md (in project root directory)
+
+This report contains:
+- Full atlas creation methodology
+- Validation results
+- Region-by-region specifications
+- Usage guidelines
+- Citation information
+
+================================================================================
+                         Use levtiades_final.nii.gz for all analyses
+================================================================================

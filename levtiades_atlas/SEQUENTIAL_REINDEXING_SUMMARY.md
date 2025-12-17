@@ -21,7 +21,7 @@ Successfully reindexed the Levtiades Atlas from the hierarchical scheme (1-5, 10
 ## 🗂️ **Generated Files**
 
 ### **Main Atlas**
-- `levtiades_sequential.nii.gz` - Sequential atlas (1-207, no gaps)
+- `levtiades_final.nii.gz` - Sequential atlas (1-207, no gaps)
 
 ### **Label Files**
 - `levtiades_labels_sequential.txt` - Complete region names

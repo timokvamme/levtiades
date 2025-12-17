@@ -51,7 +51,7 @@ def create_atlas_from_rois():
     output_dir.mkdir(parents=True, exist_ok=True)
     
     atlas_img = nib.Nifti1Image(atlas_data, affine, header)
-    output_path = output_dir / "levtiades_sequential.nii.gz"
+    output_path = output_dir / "levtiades_final.nii.gz"
     nib.save(atlas_img, output_path)
     
     print(f"✅ Created atlas: {output_path}")

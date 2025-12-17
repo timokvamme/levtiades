@@ -2,7 +2,7 @@ LEVTIADES ATLAS COMPREHENSIVE VALIDATION REPORT
 =======================================================
 
 Generated: 2025-08-15 09:56:11
-Atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz
+Atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz
 Hemisphere Ordering: Levinson → Tian-LEFT → Tian-RIGHT → Destrieux-LEFT → Destrieux-RIGHT
 
 EXECUTIVE SUMMARY

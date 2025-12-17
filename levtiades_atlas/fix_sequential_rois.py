@@ -15,7 +15,7 @@ def fix_sequential_rois():
     print("🔧 Fixing Sequential Individual ROI Files...")
     
     # Load the sequential atlas
-    atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     

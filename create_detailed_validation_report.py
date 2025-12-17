@@ -155,7 +155,7 @@ def analyze_validation_results():
         f.write("LEVTIADES ATLAS COMPREHENSIVE VALIDATION REPORT\n")
         f.write("=" * 55 + "\n\n")
         f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write(f"Atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz\n")
+        f.write(f"Atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz\n")
         f.write(f"Hemisphere Ordering: Levinson → Tian-LEFT → Tian-RIGHT → Destrieux-LEFT → Destrieux-RIGHT\n\n")
         
         # Executive Summary

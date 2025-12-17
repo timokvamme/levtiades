@@ -97,7 +97,7 @@ def recreate_atlas_from_aligned():
     
     # Save sequential atlas
     sequential_img = nib.Nifti1Image(sequential_data, lev_img.affine, lev_img.header)
-    sequential_path = output_dir / "levtiades_sequential.nii.gz"
+    sequential_path = output_dir / "levtiades_final.nii.gz"
     nib.save(sequential_img, sequential_path)
     
     print(f"✅ Created sequential atlas: {sequential_path}")

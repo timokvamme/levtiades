@@ -15,8 +15,8 @@ def create_spaced_atlas():
     print("🎨 CREATING SPACED ATLAS FOR MRIcroGL")
     print("=" * 40)
     
-    # Load sequential atlas
-    atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
+    # Load final atlas
+    atlas_path = Path("levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
     atlas_img = nib.load(atlas_path)
     atlas_data = atlas_img.get_fdata().astype(int)
     
@@ -416,8 +416,8 @@ def main():
     
     print("\n✅ ALL ATLAS VARIANTS AND ANALYSES COMPLETE!")
     print("=" * 45)
-    print("📊 Sequential atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_sequential.nii.gz")
-    print("🎨 Spaced atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_spaced_mricrogl.nii.gz") 
+    print("📊 Final atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_final.nii.gz")
+    print("🎨 Spaced atlas: levtiades_atlas/final_atlas/no_overlaps/levtiades_spaced_mricrogl.nii.gz")
     print("🔍 With overlaps: levtiades_atlas/final_atlas/with_overlaps/")
     print("📋 Reports: levtiades_atlas/final_atlas/with_overlaps/overlap_analysis_report.txt")
 

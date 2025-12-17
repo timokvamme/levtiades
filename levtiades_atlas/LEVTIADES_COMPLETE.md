@@ -9,7 +9,7 @@ The Levtiades Atlas has been successfully created, validated, and prepared for p
 ## 📊 **Atlas Configuration**
 
 ### **Sequential Atlas (Main Production Version)**
-- **File**: `levtiades_sequential.nii.gz`
+- **File**: `levtiades_final.nii.gz`
 - **Indexing**: 1-207 (sequential, no gaps)
 - **Resolution**: 2×2×2mm MNI152 space
 - **Regions**: 207 brain parcels
@@ -33,7 +33,7 @@ The Levtiades Atlas has been successfully created, validated, and prepared for p
 ## 📁 **Deliverables**
 
 ### **Main Atlas Files**
-- `levtiades_sequential.nii.gz` - Primary atlas file
+- `levtiades_final.nii.gz` - Primary atlas file
 - `levtiades_hierarchical.nii.gz` - Same atlas (compatibility naming)
 
 ### **Label Files (Text & CSV)**
@@ -79,7 +79,7 @@ The atlas includes a complete color scheme:
 - **Blue**: Destrieux cortical regions
 
 Load in MRIcrogl using:
-- Atlas: `levtiades_sequential.nii.gz`
+- Atlas: `levtiades_final.nii.gz`
 - Color table: `levtiades_lookup_table.txt`
 
 ---

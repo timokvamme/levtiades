@@ -83,7 +83,7 @@ Successfully updated the Levtiades Atlas label files with proper anatomical name
 - `levtiades_lookup_table.txt` - MRIcrogl color table
 
 ### **Atlas Files (Unchanged):**
-- `levtiades_sequential.nii.gz` - Main atlas (1-207 sequential)
+- `levtiades_final.nii.gz` - Main atlas (1-207 sequential)
 - `individual_rois_sequential/` - 207 individual ROI masks
 
 ---
